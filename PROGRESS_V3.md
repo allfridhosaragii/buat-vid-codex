@@ -25,5 +25,5 @@ Updated: 2026-10-27 (Asia/Jakarta)
 
 - Rendered and mastered the native 1920×1080 film: `remotion-project/out/FlowGuardDemo_V3_3m30_MASTERED.mp4`.
 - Final output is exactly 210.000 seconds / 6300 frames / 30 fps with H.264 High video and AAC-LC 48 kHz stereo audio.
-- Complete decode passed with no reported error. No black segment was detected. Loudness is -16.24 LUFS with -1.41 dBTP true peak.
+- Complete decode passed with no reported error. No black segment was detected. Loudness is -16.24 LUFS with -1.41 dBTP true peak. The delivery encode uses standard limited-range `yuv420p` and a front-loaded `moov` atom for browser playback.
 - Final checksum and detailed evidence are recorded in `FINAL_QA_V3.md`.

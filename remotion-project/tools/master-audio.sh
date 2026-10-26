@@ -13,7 +13,9 @@ esac
 
 output="${input%.mp4}_MASTERED.mp4"
 ffmpeg -y -loglevel error -i "$input" \
-  -map 0:v:0 -map 0:a:0 -c:v copy \
+  -map 0:v:0 -map 0:a:0 \
+  -vf 'scale=in_range=full:out_range=tv,format=yuv420p' \
+  -c:v libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -color_range tv -preset medium -crf 18 \
   -af loudnorm=I=-16:TP=-1.5:LRA=11 \
   -ar 48000 -c:a aac -b:a 192k -t "$duration" \
   -movflags +faststart "$output"

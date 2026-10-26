@@ -5,8 +5,8 @@ Verified: 2026-10-27 (Asia/Jakarta)
 ## Deliverable
 
 - File: `remotion-project/out/FlowGuardDemo_V3_3m30_MASTERED.mp4`
-- SHA-256: `0d1993f0942ad8ee2909a591ab20ddc451d9197b386b86d0b0aab74423526441`
-- Size: 70,487,715 bytes
+- SHA-256: `5439067dcee1fc760e31ac442da82f0a14f6f59967f8b6b83749eedbf9b69beb`
+- Size: 61,738,144 bytes
 
 ## Media verification
 
@@ -14,13 +14,14 @@ Verified: 2026-10-27 (Asia/Jakarta)
 |---|---|
 | Container decode | PASS — complete FFmpeg decode, no reported error |
 | Video | H.264 High, 1920×1080, 30 fps |
-| Pixel format | yuvj420p |
+| Pixel format | yuv420p, limited/TV range — browser-compatible |
 | Timeline | 210.000 seconds, exactly 6300 decoded frames |
 | Audio | AAC-LC, 48 kHz, stereo |
 | Loudness | -16.24 LUFS integrated |
 | True peak | -1.41 dBTP |
 | Loudness range | 7.10 LU |
 | Black frames | PASS — no segment at `d=0.12`, `pix_th=0.02` |
+| Web playback layout | PASS — `moov` atom at byte 36 (`faststart`) |
 
 ## Source and synchronization verification
 
