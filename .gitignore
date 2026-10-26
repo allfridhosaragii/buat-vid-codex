@@ -25,3 +25,8 @@ private-contact-sheets/
 *.safetensors
 # Diagnostics large / local scratch
 .tmp/
+.venv-tts/
+.tts-cache/
+remotion-project/public/audio/generated/
+__pycache__/
+*.pyc

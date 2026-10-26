@@ -31,12 +31,16 @@ jobs:
           cache-dependency-path: remotion-project/package-lock.json
       - name: Install locked dependencies
         run: npm ci
+      - name: Generate licensed CPU narration and sound design
+        run: npm run tts:setup && npm run tts:generate
       - name: Validate source and timeline
         run: npm test
       - name: Render selected artifact
         run: npm run render:${{ inputs.render_target }}
+      - name: Master audio
+        run: npm run master:${{ inputs.render_target }}
       - name: Probe media
-        run: ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -show_entries format=duration -of json out/*.mp4 | tee out/ffprobe.json
+        run: ffprobe -v error -show_entries stream=codec_name,codec_type,width,height,r_frame_rate,sample_rate,channels -show_entries format=duration,size -of json out/*_MASTERED.mp4 | tee out/ffprobe.json
       - name: Upload render and probe
         uses: actions/upload-artifact@v4
         with:
