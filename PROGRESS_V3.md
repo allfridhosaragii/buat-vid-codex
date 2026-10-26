@@ -21,6 +21,9 @@ Updated: 2026-10-27 (Asia/Jakarta)
 - Preview QA: no detected black segment; loudness -16.24 LUFS, true peak -1.41 dBFS; 210 one-second samples inspected.
 - Full directing notes: `V3_VISUAL_DIRECTING_LOG.md`. Voice/model details: `VOICE_PROVENANCE.md`.
 
-## Current gate
+## Final delivery
 
-- The 1920×1080 master render and final decode/metadata/evidence QA are in progress.
+- Rendered and mastered the native 1920×1080 film: `remotion-project/out/FlowGuardDemo_V3_3m30_MASTERED.mp4`.
+- Final output is exactly 210.000 seconds / 6300 frames / 30 fps with H.264 High video and AAC-LC 48 kHz stereo audio.
+- Complete decode passed with no reported error. No black segment was detected. Loudness is -16.24 LUFS with -1.41 dBTP true peak.
+- Final checksum and detailed evidence are recorded in `FINAL_QA_V3.md`.
