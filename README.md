@@ -23,12 +23,18 @@ User's six social-video clips are NOT checked in. Consult `docs/05_REFERENCE_VIS
 ```bash
 cd remotion-project
 NPM_CONFIG_CACHE=/tmp/flowguard-npm-cache npm ci
+npm run tts:setup      # CPU-only Kokoro ONNX; verifies pinned model hashes
+npm run tts:generate   # narration, word timing, and original sound design
 npm test
 npm run compositions
 npm run render:proof   # 19-second Verification Lab quality gate
-npm run render:draft   # silent 960×540, 210-second review draft
+npm run master:proof
+npm run render:draft   # narrated 960×540, 210-second review draft
+npm run master:draft
+npm run render:final   # narrated 1920×1080, 210-second master
+npm run master:final
 ```
 
-The master `FlowGuardDemo` is locked to 1920×1080, 30 FPS, 6,300 frames. `V2ProofSample` is 570 frames (19 seconds). The current cloud build intentionally has no narration: a legal natural TTS model and real forced alignment were unavailable, so caption timing is provisional and `AUDIO_BLOCKED` is reported in [FINAL_QA.md](FINAL_QA.md). Never describe the silent draft as the final film.
+The master `FlowGuardDemo` is locked to 1920×1080, 30 FPS, 6,300 frames. `V2ProofSample` is 570 frames (19 seconds). Narration uses the Apache-2.0 Kokoro v1.0 model through CPU-capable `kokoro-onnx`; model and voice-bundle hashes are pinned. Karaoke timing comes from the model's phoneme-duration output and deterministic contextual word alignment, not scene-duration division. Generated models, WAVs, and MP4s stay out of Git; see [FINAL_QA.md](FINAL_QA.md) for measured artifacts.
 
 For an artifact that does not rely on a long-lived cloud process, manually trigger **Render FlowGuard V2** in GitHub Actions and choose `proof`, `draft`, or `final`. The workflow is manual-only and writes MP4 files to downloadable Actions artifacts, never to Git history.

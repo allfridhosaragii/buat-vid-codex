@@ -2,47 +2,31 @@
 
 Updated: 2026-10-26 (Codex Cloud)
 
-## Phase 0 — verified baseline
+## Completed in this continuation
 
-- Imported the supplied seed into the only writable repository, `buat-vid-codex`.
-- Read all production specifications and inspected all 29 supplied FlowGuard images.
-- Verified all 29 SHA-256 digests and the locked 11-scene / 6,300-frame timeline.
-- Read-only V1 audit completed at exact commit `5de55c48fadd69330639cda2756be62fd0cf1321`.
-- Confirmed V1 risks in source: 60 FPS master, destructive screenshot crop, static paragraph subtitles, and unsupported `Coverage Rate` wording.
+- Started `codex/flowguard-v2-narration` from merged `origin/main` at `85d0245`.
+- Audited the full 6,300-frame implementation, specifications, provenance manifests, genuine screenshots, prior QA, and independent checkpoint.
+- Corrected S09 evidence presentation without altering the genuine screenshot: the image is explicitly identified as the historical `a1c6ffa8…` run, while final `901e7027…`, PR head `0f575c33`, and 97/97 metrics are shown as a separate linked final report.
+- Rebuilt footer layout so long citations and limitation badges cannot collide.
+- Added reproducible CPU narration with `kokoro-onnx 0.6.1`, the Apache-2.0 Kokoro v1.0 model, `af_heart`, locked model hashes, and no cloned or paid voice.
+- Evaluated Chatterbox 0.1.7. Its 350–500M PyTorch stack and GPU-oriented dependency profile were not resource-appropriate for this CPU-only environment, so no model was downloaded.
+- Generated all 11 narration tracks plus the pilot. Every narration fits its scene.
+- Replaced artificial scene-duration caption division with model-derived phoneme timings and deterministic word forced alignment. Alignment confidence ranges from 93.72% to 100%; every displayed time remains anchored to a Kokoro phoneme-duration span.
+- Rebuilt karaoke captions into natural phrase cards with active-word highlighting, completed-word state, fades, and safe-area placement.
+- Upgraded the 19-second Verification Lab pilot: narration-led fail/pass choreography, evidence reveals, transition sweep, camera drift, final proof card, original generated sound design, and word-synchronized captions.
+- Added an original deterministic 210-second sound-design bed and mastered AAC output at approximately -16 LUFS.
+- Added setup/generation/validation/mastering scripts and updated the manual-only GitHub Actions workflow. It is not automatically triggered.
 
-## Phase 1 — active V2 implementation
+## Actual renders
 
-- Created branch `codex/flowguard-v2`.
-- Locked `FlowGuardDemo` to 1920×1080, 30 FPS, 6,300 frames.
-- Added an original 11-scene cinematic director: animated diagrams, particles, 2.5D browser stages, kinetic hierarchy, evidence footers, and semantic PASS/FAIL/POTENTIAL color rules.
-- Replaced active screenshot rendering with aspect-preserving `contain` treatment.
-- Added timed 2–5-word karaoke-style cards. They are visual timing only until real narration alignment exists; no word-sync claim is made.
-- Added evidence boundary checks for conditional Medusa risk, external POTENTIAL findings, synthetic fixture scope, TestSprite pass rate, and Chromium-only Playwright evidence.
+- `remotion-project/out/V2ProofSample_MASTERED.mp4` — narrated 19-second 1080p pilot.
+- `remotion-project/out/FlowGuardDemo_V2_draft.mp4` — narrated 210-second 540p review draft.
+- `remotion-project/out/FlowGuardDemo_V2_3m30_MASTERED.mp4` — narrated 210-second 1080p master.
 
-## Phase 2 — narration
+Generated media and model files remain ignored by Git. Source, hashes, timings, setup, render, and QA procedures are reviewable and reproducible.
 
-- `AUDIO_BLOCKED`: no GPU, Kokoro, Chatterbox, Whisper, or timestamp aligner is installed in this cloud environment.
-- No unlicensed V1 audio, paid API, cloned voice, or fabricated alignment was imported.
-- The factual English master script remains in `docs/04_VOICEOVER_SCRIPT_EN.md` for a later licensed narration/alignment pass.
+## Remaining delivery steps
 
-## Phase 3 — Verification Lab pilot
-
-- `V2ProofSample`: 570 frames / 19 seconds / 1920×1080 / 30 FPS.
-- Actual H.264 render produced locally at `remotion-project/out/V2ProofSample.mp4` (ignored by Git).
-- ffprobe verified 19.000 seconds, 1920×1080, 30/1 FPS.
-- Nine sampled frames inspected; no black interval reported by ffmpeg blackdetect.
-
-## Phase 4 — full draft
-
-- Full 11-scene low-resolution render completed at `remotion-project/out/FlowGuardDemo_V2_draft.mp4`.
-- ffprobe verified H.264, 960×540, 30 FPS, exactly 6,300 frames / 210.000 seconds.
-- All 11 midpoints and every scene boundary were sampled. Initial one-frame content dips were corrected and the complete draft was rendered again.
-- ffmpeg blackdetect reported no black interval in the corrected full draft.
-- Manual-only GitHub Actions renderer added for proof, draft, or final artifacts.
-
-## Remaining
-
-- Generate legally usable natural English narration and timestamps from the produced audio.
-- Replace provisional caption timing with aligned word timing and validate five random words.
-- Render and inspect final narrated 1080p master; verify AAC, loudness, clipping, and spoken cuts.
-- Branch `codex/flowguard-v2` is pushed. GitHub PR creation via `gh` returned GraphQL `403 Forbidden` because API authorization is unavailable even though Git push works. Create the PR from `https://github.com/allfridhosaragii/buat-vid-codex/compare/main...codex/flowguard-v2`; do not merge automatically.
+- Commit and push this review branch.
+- Open a PR against `main` if GitHub API authorization is available. Do not merge automatically.
+- The manual GitHub Actions render may be triggered later if a downloadable Actions artifact is desired; it was not run here because the user prohibited unapproved expensive Actions jobs.

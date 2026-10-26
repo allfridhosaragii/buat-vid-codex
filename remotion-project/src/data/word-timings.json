@@ -1,0 +1,2385 @@
+{
+  "provenance": {
+    "engine": "kokoro-onnx",
+    "engineVersion": "0.6.1",
+    "modelLicense": "Apache-2.0",
+    "modelSha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "voicesSha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "voice": "af_heart",
+    "speed": 1.0,
+    "timingMethod": "Kokoro model phoneme durations aligned to per-word phonemes with Needleman-Wunsch"
+  },
+  "scenes": {
+    "S01": {
+      "text": "Behind every software failure, there can be a real person. A delayed purchase. Money temporarily unavailable. A retry that behaves differently than expected.",
+      "audio": "audio/generated/S01.wav",
+      "durationMs": 10225,
+      "alignmentConfidence": 1.0,
+      "words": [
+        {
+          "text": "Behind",
+          "startMs": 69,
+          "endMs": 469
+        },
+        {
+          "text": "every",
+          "startMs": 544,
+          "endMs": 794
+        },
+        {
+          "text": "software",
+          "startMs": 869,
+          "endMs": 1294
+        },
+        {
+          "text": "failure,",
+          "startMs": 1344,
+          "endMs": 1844
+        },
+        {
+          "text": "there",
+          "startMs": 1914,
+          "endMs": 1989
+        },
+        {
+          "text": "can",
+          "startMs": 2039,
+          "endMs": 2164
+        },
+        {
+          "text": "be",
+          "startMs": 2214,
+          "endMs": 2339
+        },
+        {
+          "text": "a",
+          "startMs": 2389,
+          "endMs": 2439
+        },
+        {
+          "text": "real",
+          "startMs": 2514,
+          "endMs": 2814
+        },
+        {
+          "text": "person.",
+          "startMs": 2864,
+          "endMs": 3714
+        },
+        {
+          "text": "A",
+          "startMs": 3789,
+          "endMs": 3839
+        },
+        {
+          "text": "delayed",
+          "startMs": 3889,
+          "endMs": 4289
+        },
+        {
+          "text": "purchase.",
+          "startMs": 4339,
+          "endMs": 5264
+        },
+        {
+          "text": "Money",
+          "startMs": 5339,
+          "endMs": 5589
+        },
+        {
+          "text": "temporarily",
+          "startMs": 5664,
+          "endMs": 6414
+        },
+        {
+          "text": "unavailable.",
+          "startMs": 6514,
+          "endMs": 7514
+        },
+        {
+          "text": "A",
+          "startMs": 7589,
+          "endMs": 7639
+        },
+        {
+          "text": "retry",
+          "startMs": 7689,
+          "endMs": 8139
+        },
+        {
+          "text": "that",
+          "startMs": 8189,
+          "endMs": 8264
+        },
+        {
+          "text": "behaves",
+          "startMs": 8289,
+          "endMs": 8739
+        },
+        {
+          "text": "differently",
+          "startMs": 8814,
+          "endMs": 9189
+        },
+        {
+          "text": "than",
+          "startMs": 9239,
+          "endMs": 9314
+        },
+        {
+          "text": "expected.",
+          "startMs": 9364,
+          "endMs": 10025
+        }
+      ]
+    },
+    "S02": {
+      "text": "In November twenty twenty five, an Indonesian customer publicly described a Q R I S funded app purchase. Their mobile banking balance had decreased, but the purchase never appeared, and Google Play marked it cancelled. The report describes the experience, not a verified technical root cause.",
+      "audio": "audio/generated/S02.wav",
+      "durationMs": 19217,
+      "alignmentConfidence": 0.953737,
+      "words": [
+        {
+          "text": "In",
+          "startMs": 76,
+          "endMs": 151
+        },
+        {
+          "text": "November",
+          "startMs": 201,
+          "endMs": 701
+        },
+        {
+          "text": "twenty",
+          "startMs": 776,
+          "endMs": 1026
+        },
+        {
+          "text": "twenty",
+          "startMs": 1076,
+          "endMs": 1326
+        },
+        {
+          "text": "five,",
+          "startMs": 1376,
+          "endMs": 2001
+        },
+        {
+          "text": "an",
+          "startMs": 2076,
+          "endMs": 2101
+        },
+        {
+          "text": "Indonesian",
+          "startMs": 2151,
+          "endMs": 2801
+        },
+        {
+          "text": "customer",
+          "startMs": 2851,
+          "endMs": 3351
+        },
+        {
+          "text": "publicly",
+          "startMs": 3451,
+          "endMs": 3901
+        },
+        {
+          "text": "described",
+          "startMs": 3951,
+          "endMs": 4476
+        },
+        {
+          "text": "a",
+          "startMs": 4526,
+          "endMs": 4576
+        },
+        {
+          "text": "Q",
+          "startMs": 4676,
+          "endMs": 4976
+        },
+        {
+          "text": "R",
+          "startMs": 5051,
+          "endMs": 5351
+        },
+        {
+          "text": "I",
+          "startMs": 5451,
+          "endMs": 5601
+        },
+        {
+          "text": "S",
+          "startMs": 5676,
+          "endMs": 5876
+        },
+        {
+          "text": "funded",
+          "startMs": 5926,
+          "endMs": 6226
+        },
+        {
+          "text": "app",
+          "startMs": 6301,
+          "endMs": 6476
+        },
+        {
+          "text": "purchase.",
+          "startMs": 6526,
+          "endMs": 7626
+        },
+        {
+          "text": "Their",
+          "startMs": 7701,
+          "endMs": 7851
+        },
+        {
+          "text": "mobile",
+          "startMs": 7926,
+          "endMs": 8251
+        },
+        {
+          "text": "banking",
+          "startMs": 8301,
+          "endMs": 8626
+        },
+        {
+          "text": "balance",
+          "startMs": 8676,
+          "endMs": 9026
+        },
+        {
+          "text": "had",
+          "startMs": 9051,
+          "endMs": 9151
+        },
+        {
+          "text": "decreased,",
+          "startMs": 9201,
+          "endMs": 10126
+        },
+        {
+          "text": "but",
+          "startMs": 10176,
+          "endMs": 10276
+        },
+        {
+          "text": "the",
+          "startMs": 10301,
+          "endMs": 10351
+        },
+        {
+          "text": "purchase",
+          "startMs": 10401,
+          "endMs": 10901
+        },
+        {
+          "text": "never",
+          "startMs": 10976,
+          "endMs": 11201
+        },
+        {
+          "text": "appeared,",
+          "startMs": 11301,
+          "endMs": 12051
+        },
+        {
+          "text": "and",
+          "startMs": 12101,
+          "endMs": 12176
+        },
+        {
+          "text": "Google",
+          "startMs": 12251,
+          "endMs": 12551
+        },
+        {
+          "text": "Play",
+          "startMs": 12601,
+          "endMs": 12876
+        },
+        {
+          "text": "marked",
+          "startMs": 12926,
+          "endMs": 13176
+        },
+        {
+          "text": "it",
+          "startMs": 13201,
+          "endMs": 13276
+        },
+        {
+          "text": "cancelled.",
+          "startMs": 13326,
+          "endMs": 14401
+        },
+        {
+          "text": "The",
+          "startMs": 14476,
+          "endMs": 14551
+        },
+        {
+          "text": "report",
+          "startMs": 14601,
+          "endMs": 15001
+        },
+        {
+          "text": "describes",
+          "startMs": 15051,
+          "endMs": 15576
+        },
+        {
+          "text": "the",
+          "startMs": 15601,
+          "endMs": 15626
+        },
+        {
+          "text": "experience,",
+          "startMs": 15726,
+          "endMs": 16801
+        },
+        {
+          "text": "not",
+          "startMs": 16851,
+          "endMs": 16976
+        },
+        {
+          "text": "a",
+          "startMs": 16976,
+          "endMs": 17076
+        },
+        {
+          "text": "verified",
+          "startMs": 17151,
+          "endMs": 17726
+        },
+        {
+          "text": "technical",
+          "startMs": 17801,
+          "endMs": 18251
+        },
+        {
+          "text": "root",
+          "startMs": 18301,
+          "endMs": 18476
+        },
+        {
+          "text": "cause.",
+          "startMs": 18526,
+          "endMs": 18987
+        }
+      ]
+    },
+    "S03": {
+      "text": "In April twenty twenty six, an Uber Eats customer reported extra funds they could not use. Commenters pointed to a pending authorization hold, rather than a proven second settled charge. The impact of uncertainty was still real.",
+      "audio": "audio/generated/S03.wav",
+      "durationMs": 15171,
+      "alignmentConfidence": 0.93722,
+      "words": [
+        {
+          "text": "In",
+          "startMs": 73,
+          "endMs": 173
+        },
+        {
+          "text": "April",
+          "startMs": 223,
+          "endMs": 548
+        },
+        {
+          "text": "twenty",
+          "startMs": 598,
+          "endMs": 848
+        },
+        {
+          "text": "twenty",
+          "startMs": 898,
+          "endMs": 1148
+        },
+        {
+          "text": "six,",
+          "startMs": 1223,
+          "endMs": 1873
+        },
+        {
+          "text": "an",
+          "startMs": 2013,
+          "endMs": 2113
+        },
+        {
+          "text": "Uber",
+          "startMs": 2188,
+          "endMs": 2413
+        },
+        {
+          "text": "Eats",
+          "startMs": 2513,
+          "endMs": 2763
+        },
+        {
+          "text": "customer",
+          "startMs": 2813,
+          "endMs": 3363
+        },
+        {
+          "text": "reported",
+          "startMs": 3438,
+          "endMs": 3913
+        },
+        {
+          "text": "extra",
+          "startMs": 3988,
+          "endMs": 4338
+        },
+        {
+          "text": "funds",
+          "startMs": 4413,
+          "endMs": 4788
+        },
+        {
+          "text": "they",
+          "startMs": 4838,
+          "endMs": 4913
+        },
+        {
+          "text": "could",
+          "startMs": 4963,
+          "endMs": 5063
+        },
+        {
+          "text": "not",
+          "startMs": 5113,
+          "endMs": 5288
+        },
+        {
+          "text": "use.",
+          "startMs": 5338,
+          "endMs": 6213
+        },
+        {
+          "text": "Commenters",
+          "startMs": 6288,
+          "endMs": 6888
+        },
+        {
+          "text": "pointed",
+          "startMs": 6963,
+          "endMs": 7313
+        },
+        {
+          "text": "to",
+          "startMs": 7363,
+          "endMs": 7413
+        },
+        {
+          "text": "a",
+          "startMs": 7413,
+          "endMs": 7563
+        },
+        {
+          "text": "pending",
+          "startMs": 7638,
+          "endMs": 7988
+        },
+        {
+          "text": "authorization",
+          "startMs": 8038,
+          "endMs": 8713
+        },
+        {
+          "text": "hold,",
+          "startMs": 8763,
+          "endMs": 9413
+        },
+        {
+          "text": "rather",
+          "startMs": 9488,
+          "endMs": 9788
+        },
+        {
+          "text": "than",
+          "startMs": 9838,
+          "endMs": 9963
+        },
+        {
+          "text": "a",
+          "startMs": 9963,
+          "endMs": 10013
+        },
+        {
+          "text": "proven",
+          "startMs": 10088,
+          "endMs": 10438
+        },
+        {
+          "text": "second",
+          "startMs": 10538,
+          "endMs": 10913
+        },
+        {
+          "text": "settled",
+          "startMs": 10988,
+          "endMs": 11288
+        },
+        {
+          "text": "charge.",
+          "startMs": 11338,
+          "endMs": 12338
+        },
+        {
+          "text": "The",
+          "startMs": 12413,
+          "endMs": 12463
+        },
+        {
+          "text": "impact",
+          "startMs": 12588,
+          "endMs": 13063
+        },
+        {
+          "text": "of",
+          "startMs": 13088,
+          "endMs": 13138
+        },
+        {
+          "text": "uncertainty",
+          "startMs": 13213,
+          "endMs": 14013
+        },
+        {
+          "text": "was",
+          "startMs": 14088,
+          "endMs": 14188
+        },
+        {
+          "text": "still",
+          "startMs": 14238,
+          "endMs": 14488
+        },
+        {
+          "text": "real.",
+          "startMs": 14563,
+          "endMs": 14981
+        }
+      ]
+    },
+    "S04": {
+      "text": "Developers face a related engineering challenge. A September twenty twenty six Medusa issue described a refund retry that could generate a different idempotency key after a provider error. If the first refund succeeded but its response was lost, another refund could become possible.",
+      "audio": "audio/generated/S04.wav",
+      "durationMs": 19059,
+      "alignmentConfidence": 1.0,
+      "words": [
+        {
+          "text": "Developers",
+          "startMs": 98,
+          "endMs": 748
+        },
+        {
+          "text": "face",
+          "startMs": 823,
+          "endMs": 1148
+        },
+        {
+          "text": "a",
+          "startMs": 1223,
+          "endMs": 1273
+        },
+        {
+          "text": "related",
+          "startMs": 1323,
+          "endMs": 1798
+        },
+        {
+          "text": "engineering",
+          "startMs": 1848,
+          "endMs": 2398
+        },
+        {
+          "text": "challenge.",
+          "startMs": 2448,
+          "endMs": 3498
+        },
+        {
+          "text": "A",
+          "startMs": 3573,
+          "endMs": 3623
+        },
+        {
+          "text": "September",
+          "startMs": 3698,
+          "endMs": 4148
+        },
+        {
+          "text": "twenty",
+          "startMs": 4223,
+          "endMs": 4473
+        },
+        {
+          "text": "twenty",
+          "startMs": 4523,
+          "endMs": 4773
+        },
+        {
+          "text": "six",
+          "startMs": 4848,
+          "endMs": 5323
+        },
+        {
+          "text": "Medusa",
+          "startMs": 5423,
+          "endMs": 5898
+        },
+        {
+          "text": "issue",
+          "startMs": 5948,
+          "endMs": 6273
+        },
+        {
+          "text": "described",
+          "startMs": 6323,
+          "endMs": 6823
+        },
+        {
+          "text": "a",
+          "startMs": 6873,
+          "endMs": 6923
+        },
+        {
+          "text": "refund",
+          "startMs": 6998,
+          "endMs": 7398
+        },
+        {
+          "text": "retry",
+          "startMs": 7448,
+          "endMs": 8198
+        },
+        {
+          "text": "that",
+          "startMs": 8298,
+          "endMs": 8398
+        },
+        {
+          "text": "could",
+          "startMs": 8448,
+          "endMs": 8573
+        },
+        {
+          "text": "generate",
+          "startMs": 8648,
+          "endMs": 9148
+        },
+        {
+          "text": "a",
+          "startMs": 9198,
+          "endMs": 9248
+        },
+        {
+          "text": "different",
+          "startMs": 9323,
+          "endMs": 9598
+        },
+        {
+          "text": "idempotency",
+          "startMs": 9648,
+          "endMs": 10373
+        },
+        {
+          "text": "key",
+          "startMs": 10448,
+          "endMs": 10948
+        },
+        {
+          "text": "after",
+          "startMs": 11048,
+          "endMs": 11348
+        },
+        {
+          "text": "a",
+          "startMs": 11373,
+          "endMs": 11398
+        },
+        {
+          "text": "provider",
+          "startMs": 11448,
+          "endMs": 11948
+        },
+        {
+          "text": "error.",
+          "startMs": 11998,
+          "endMs": 13023
+        },
+        {
+          "text": "If",
+          "startMs": 13098,
+          "endMs": 13173
+        },
+        {
+          "text": "the",
+          "startMs": 13223,
+          "endMs": 13298
+        },
+        {
+          "text": "first",
+          "startMs": 13373,
+          "endMs": 13673
+        },
+        {
+          "text": "refund",
+          "startMs": 13723,
+          "endMs": 14173
+        },
+        {
+          "text": "succeeded",
+          "startMs": 14223,
+          "endMs": 15023
+        },
+        {
+          "text": "but",
+          "startMs": 15098,
+          "endMs": 15198
+        },
+        {
+          "text": "its",
+          "startMs": 15223,
+          "endMs": 15298
+        },
+        {
+          "text": "response",
+          "startMs": 15348,
+          "endMs": 15873
+        },
+        {
+          "text": "was",
+          "startMs": 15923,
+          "endMs": 16048
+        },
+        {
+          "text": "lost,",
+          "startMs": 16098,
+          "endMs": 16823
+        },
+        {
+          "text": "another",
+          "startMs": 16898,
+          "endMs": 17223
+        },
+        {
+          "text": "refund",
+          "startMs": 17273,
+          "endMs": 17723
+        },
+        {
+          "text": "could",
+          "startMs": 17773,
+          "endMs": 17848
+        },
+        {
+          "text": "become",
+          "startMs": 17873,
+          "endMs": 18198
+        },
+        {
+          "text": "possible.",
+          "startMs": 18248,
+          "endMs": 18859
+        }
+      ]
+    },
+    "S05": {
+      "text": "Payment systems need explicit invariants. Stripe's documentation explains idempotent requests: retries should not silently duplicate an operation. The question is not only whether code runs, but whether the business rule still holds.",
+      "audio": "audio/generated/S05.wav",
+      "durationMs": 15661,
+      "alignmentConfidence": 1.0,
+      "words": [
+        {
+          "text": "Payment",
+          "startMs": 69,
+          "endMs": 419
+        },
+        {
+          "text": "systems",
+          "startMs": 469,
+          "endMs": 969
+        },
+        {
+          "text": "need",
+          "startMs": 1069,
+          "endMs": 1294
+        },
+        {
+          "text": "explicit",
+          "startMs": 1369,
+          "endMs": 1919
+        },
+        {
+          "text": "invariants.",
+          "startMs": 1969,
+          "endMs": 3144
+        },
+        {
+          "text": "Stripe's",
+          "startMs": 3244,
+          "endMs": 3619
+        },
+        {
+          "text": "documentation",
+          "startMs": 3669,
+          "endMs": 4569
+        },
+        {
+          "text": "explains",
+          "startMs": 4644,
+          "endMs": 5269
+        },
+        {
+          "text": "idempotent",
+          "startMs": 5369,
+          "endMs": 5969
+        },
+        {
+          "text": "requests:",
+          "startMs": 6019,
+          "endMs": 7119
+        },
+        {
+          "text": "retries",
+          "startMs": 7194,
+          "endMs": 7744
+        },
+        {
+          "text": "should",
+          "startMs": 7794,
+          "endMs": 7919
+        },
+        {
+          "text": "not",
+          "startMs": 7969,
+          "endMs": 8219
+        },
+        {
+          "text": "silently",
+          "startMs": 8294,
+          "endMs": 8794
+        },
+        {
+          "text": "duplicate",
+          "startMs": 8869,
+          "endMs": 9394
+        },
+        {
+          "text": "an",
+          "startMs": 9419,
+          "endMs": 9469
+        },
+        {
+          "text": "operation.",
+          "startMs": 9519,
+          "endMs": 10644
+        },
+        {
+          "text": "The",
+          "startMs": 10694,
+          "endMs": 10744
+        },
+        {
+          "text": "question",
+          "startMs": 10794,
+          "endMs": 11269
+        },
+        {
+          "text": "is",
+          "startMs": 11344,
+          "endMs": 11444
+        },
+        {
+          "text": "not",
+          "startMs": 11519,
+          "endMs": 11694
+        },
+        {
+          "text": "only",
+          "startMs": 11719,
+          "endMs": 11944
+        },
+        {
+          "text": "whether",
+          "startMs": 11994,
+          "endMs": 12219
+        },
+        {
+          "text": "code",
+          "startMs": 12294,
+          "endMs": 12569
+        },
+        {
+          "text": "runs,",
+          "startMs": 12619,
+          "endMs": 13294
+        },
+        {
+          "text": "but",
+          "startMs": 13424,
+          "endMs": 13524
+        },
+        {
+          "text": "whether",
+          "startMs": 13574,
+          "endMs": 13799
+        },
+        {
+          "text": "the",
+          "startMs": 13849,
+          "endMs": 13899
+        },
+        {
+          "text": "business",
+          "startMs": 13949,
+          "endMs": 14299
+        },
+        {
+          "text": "rule",
+          "startMs": 14349,
+          "endMs": 14599
+        },
+        {
+          "text": "still",
+          "startMs": 14674,
+          "endMs": 14899
+        },
+        {
+          "text": "holds.",
+          "startMs": 14949,
+          "endMs": 15461
+        }
+      ]
+    },
+    "S06": {
+      "text": "Meet FlowGuard A I. Built to help developers reason about behavioral risk, turn a business requirement into testable expectations, and distinguish suspected bugs from observed proof.",
+      "audio": "audio/generated/S06.wav",
+      "durationMs": 11891,
+      "alignmentConfidence": 0.950276,
+      "words": [
+        {
+          "text": "Meet",
+          "startMs": 119,
+          "endMs": 344
+        },
+        {
+          "text": "FlowGuard",
+          "startMs": 419,
+          "endMs": 969
+        },
+        {
+          "text": "A",
+          "startMs": 1019,
+          "endMs": 1044
+        },
+        {
+          "text": "I.",
+          "startMs": 1119,
+          "endMs": 1919
+        },
+        {
+          "text": "Built",
+          "startMs": 2019,
+          "endMs": 2244
+        },
+        {
+          "text": "to",
+          "startMs": 2294,
+          "endMs": 2319
+        },
+        {
+          "text": "help",
+          "startMs": 2419,
+          "endMs": 2644
+        },
+        {
+          "text": "developers",
+          "startMs": 2694,
+          "endMs": 3244
+        },
+        {
+          "text": "reason",
+          "startMs": 3319,
+          "endMs": 3669
+        },
+        {
+          "text": "about",
+          "startMs": 3719,
+          "endMs": 3919
+        },
+        {
+          "text": "behavioral",
+          "startMs": 3969,
+          "endMs": 4494
+        },
+        {
+          "text": "risk,",
+          "startMs": 4544,
+          "endMs": 5219
+        },
+        {
+          "text": "turn",
+          "startMs": 5294,
+          "endMs": 5519
+        },
+        {
+          "text": "a",
+          "startMs": 5544,
+          "endMs": 5569
+        },
+        {
+          "text": "business",
+          "startMs": 5644,
+          "endMs": 5994
+        },
+        {
+          "text": "requirement",
+          "startMs": 6044,
+          "endMs": 6594
+        },
+        {
+          "text": "into",
+          "startMs": 6619,
+          "endMs": 6819
+        },
+        {
+          "text": "testable",
+          "startMs": 6894,
+          "endMs": 7369
+        },
+        {
+          "text": "expectations,",
+          "startMs": 7419,
+          "endMs": 8669
+        },
+        {
+          "text": "and",
+          "startMs": 8719,
+          "endMs": 8794
+        },
+        {
+          "text": "distinguish",
+          "startMs": 8819,
+          "endMs": 9419
+        },
+        {
+          "text": "suspected",
+          "startMs": 9469,
+          "endMs": 10019
+        },
+        {
+          "text": "bugs",
+          "startMs": 10069,
+          "endMs": 10569
+        },
+        {
+          "text": "from",
+          "startMs": 10619,
+          "endMs": 10769
+        },
+        {
+          "text": "observed",
+          "startMs": 10819,
+          "endMs": 11244
+        },
+        {
+          "text": "proof.",
+          "startMs": 11294,
+          "endMs": 11691
+        }
+      ]
+    },
+    "S07": {
+      "text": "Start with a code snippet or a public GitHub pull request, then describe the rule that matters. FlowGuard's Requirement Analyst extracts invariants. Its Risk Hunter flags possible failure paths. Its Verification Planner proposes assertions to investigate. Findings from external code remain labelled potential. Reading a pull request is not the same as executing it.",
+      "audio": "audio/generated/S07.wav",
+      "durationMs": 23786,
+      "alignmentConfidence": 0.963173,
+      "words": [
+        {
+          "text": "Start",
+          "startMs": 94,
+          "endMs": 344
+        },
+        {
+          "text": "with",
+          "startMs": 369,
+          "endMs": 469
+        },
+        {
+          "text": "a",
+          "startMs": 494,
+          "endMs": 519
+        },
+        {
+          "text": "code",
+          "startMs": 569,
+          "endMs": 819
+        },
+        {
+          "text": "snippet",
+          "startMs": 869,
+          "endMs": 1444
+        },
+        {
+          "text": "or",
+          "startMs": 1544,
+          "endMs": 1669
+        },
+        {
+          "text": "a",
+          "startMs": 1719,
+          "endMs": 1744
+        },
+        {
+          "text": "public",
+          "startMs": 1794,
+          "endMs": 2144
+        },
+        {
+          "text": "GitHub",
+          "startMs": 2194,
+          "endMs": 2544
+        },
+        {
+          "text": "pull",
+          "startMs": 2594,
+          "endMs": 2794
+        },
+        {
+          "text": "request,",
+          "startMs": 2844,
+          "endMs": 3669
+        },
+        {
+          "text": "then",
+          "startMs": 3719,
+          "endMs": 3869
+        },
+        {
+          "text": "describe",
+          "startMs": 3919,
+          "endMs": 4344
+        },
+        {
+          "text": "the",
+          "startMs": 4369,
+          "endMs": 4419
+        },
+        {
+          "text": "rule",
+          "startMs": 4494,
+          "endMs": 4744
+        },
+        {
+          "text": "that",
+          "startMs": 4794,
+          "endMs": 4919
+        },
+        {
+          "text": "matters.",
+          "startMs": 4969,
+          "endMs": 5919
+        },
+        {
+          "text": "FlowGuard's",
+          "startMs": 6019,
+          "endMs": 6569
+        },
+        {
+          "text": "Requirement",
+          "startMs": 6619,
+          "endMs": 7194
+        },
+        {
+          "text": "Analyst",
+          "startMs": 7269,
+          "endMs": 7794
+        },
+        {
+          "text": "extracts",
+          "startMs": 7869,
+          "endMs": 8394
+        },
+        {
+          "text": "invariants.",
+          "startMs": 8444,
+          "endMs": 9544
+        },
+        {
+          "text": "Its",
+          "startMs": 9619,
+          "endMs": 9769
+        },
+        {
+          "text": "Risk",
+          "startMs": 9819,
+          "endMs": 10044
+        },
+        {
+          "text": "Hunter",
+          "startMs": 10094,
+          "endMs": 10494
+        },
+        {
+          "text": "flags",
+          "startMs": 10594,
+          "endMs": 10969
+        },
+        {
+          "text": "possible",
+          "startMs": 11044,
+          "endMs": 11519
+        },
+        {
+          "text": "failure",
+          "startMs": 11594,
+          "endMs": 11919
+        },
+        {
+          "text": "paths.",
+          "startMs": 11969,
+          "endMs": 12719
+        },
+        {
+          "text": "Its",
+          "startMs": 12794,
+          "endMs": 12919
+        },
+        {
+          "text": "Verification",
+          "startMs": 12969,
+          "endMs": 13669
+        },
+        {
+          "text": "Planner",
+          "startMs": 13719,
+          "endMs": 14069
+        },
+        {
+          "text": "proposes",
+          "startMs": 14119,
+          "endMs": 14669
+        },
+        {
+          "text": "assertions",
+          "startMs": 14719,
+          "endMs": 15319
+        },
+        {
+          "text": "to",
+          "startMs": 15369,
+          "endMs": 15419
+        },
+        {
+          "text": "investigate.",
+          "startMs": 15519,
+          "endMs": 16669
+        },
+        {
+          "text": "Findings",
+          "startMs": 16769,
+          "endMs": 17294
+        },
+        {
+          "text": "from",
+          "startMs": 17344,
+          "endMs": 17444
+        },
+        {
+          "text": "external",
+          "startMs": 17494,
+          "endMs": 17969
+        },
+        {
+          "text": "code",
+          "startMs": 18019,
+          "endMs": 18419
+        },
+        {
+          "text": "remain",
+          "startMs": 18494,
+          "endMs": 18844
+        },
+        {
+          "text": "labelled",
+          "startMs": 18919,
+          "endMs": 19294
+        },
+        {
+          "text": "potential.",
+          "startMs": 19344,
+          "endMs": 20419
+        },
+        {
+          "text": "Reading",
+          "startMs": 20519,
+          "endMs": 20844
+        },
+        {
+          "text": "a",
+          "startMs": 20894,
+          "endMs": 20944
+        },
+        {
+          "text": "pull",
+          "startMs": 21019,
+          "endMs": 21219
+        },
+        {
+          "text": "request",
+          "startMs": 21269,
+          "endMs": 21794
+        },
+        {
+          "text": "is",
+          "startMs": 21869,
+          "endMs": 21969
+        },
+        {
+          "text": "not",
+          "startMs": 22044,
+          "endMs": 22219
+        },
+        {
+          "text": "the",
+          "startMs": 22244,
+          "endMs": 22294
+        },
+        {
+          "text": "same",
+          "startMs": 22369,
+          "endMs": 22644
+        },
+        {
+          "text": "as",
+          "startMs": 22694,
+          "endMs": 22794
+        },
+        {
+          "text": "executing",
+          "startMs": 22869,
+          "endMs": 23419
+        },
+        {
+          "text": "it.",
+          "startMs": 23469,
+          "endMs": 23616
+        }
+      ]
+    },
+    "S08": {
+      "text": "Now watch our controlled Verification Lab. With two concurrent refund attempts and the same logical key, the intentionally vulnerable synthetic fixture commits two side effects. The invariant allows only one, so the observed result is verified fail. Switch to the corrected fixture under the same controlled rule: just one side effect. Verified pass. These are reproducible first-party simulations, not claims about a real bank or an external repository.",
+      "audio": "audio/generated/S08.wav",
+      "durationMs": 27565,
+      "alignmentConfidence": 1.0,
+      "words": [
+        {
+          "text": "Now",
+          "startMs": 80,
+          "endMs": 280
+        },
+        {
+          "text": "watch",
+          "startMs": 330,
+          "endMs": 580
+        },
+        {
+          "text": "our",
+          "startMs": 605,
+          "endMs": 705
+        },
+        {
+          "text": "controlled",
+          "startMs": 755,
+          "endMs": 1180
+        },
+        {
+          "text": "Verification",
+          "startMs": 1230,
+          "endMs": 1905
+        },
+        {
+          "text": "Lab.",
+          "startMs": 1955,
+          "endMs": 2580
+        },
+        {
+          "text": "With",
+          "startMs": 2630,
+          "endMs": 2755
+        },
+        {
+          "text": "two",
+          "startMs": 2830,
+          "endMs": 3030
+        },
+        {
+          "text": "concurrent",
+          "startMs": 3080,
+          "endMs": 3505
+        },
+        {
+          "text": "refund",
+          "startMs": 3530,
+          "endMs": 3880
+        },
+        {
+          "text": "attempts",
+          "startMs": 3905,
+          "endMs": 4380
+        },
+        {
+          "text": "and",
+          "startMs": 4430,
+          "endMs": 4505
+        },
+        {
+          "text": "the",
+          "startMs": 4530,
+          "endMs": 4580
+        },
+        {
+          "text": "same",
+          "startMs": 4655,
+          "endMs": 4905
+        },
+        {
+          "text": "logical",
+          "startMs": 4955,
+          "endMs": 5405
+        },
+        {
+          "text": "key,",
+          "startMs": 5455,
+          "endMs": 6005
+        },
+        {
+          "text": "the",
+          "startMs": 6125,
+          "endMs": 6225
+        },
+        {
+          "text": "intentionally",
+          "startMs": 6275,
+          "endMs": 6900
+        },
+        {
+          "text": "vulnerable",
+          "startMs": 6975,
+          "endMs": 7500
+        },
+        {
+          "text": "synthetic",
+          "startMs": 7550,
+          "endMs": 8000
+        },
+        {
+          "text": "fixture",
+          "startMs": 8050,
+          "endMs": 8450
+        },
+        {
+          "text": "commits",
+          "startMs": 8525,
+          "endMs": 8800
+        },
+        {
+          "text": "two",
+          "startMs": 8875,
+          "endMs": 9075
+        },
+        {
+          "text": "side",
+          "startMs": 9150,
+          "endMs": 9400
+        },
+        {
+          "text": "effects.",
+          "startMs": 9425,
+          "endMs": 10350
+        },
+        {
+          "text": "The",
+          "startMs": 10400,
+          "endMs": 10475
+        },
+        {
+          "text": "invariant",
+          "startMs": 10525,
+          "endMs": 10975
+        },
+        {
+          "text": "allows",
+          "startMs": 11025,
+          "endMs": 11350
+        },
+        {
+          "text": "only",
+          "startMs": 11400,
+          "endMs": 11700
+        },
+        {
+          "text": "one,",
+          "startMs": 11750,
+          "endMs": 12150
+        },
+        {
+          "text": "so",
+          "startMs": 12200,
+          "endMs": 12300
+        },
+        {
+          "text": "the",
+          "startMs": 12325,
+          "endMs": 12400
+        },
+        {
+          "text": "observed",
+          "startMs": 12450,
+          "endMs": 12850
+        },
+        {
+          "text": "result",
+          "startMs": 12875,
+          "endMs": 13200
+        },
+        {
+          "text": "is",
+          "startMs": 13275,
+          "endMs": 13375
+        },
+        {
+          "text": "verified",
+          "startMs": 13450,
+          "endMs": 14000
+        },
+        {
+          "text": "fail.",
+          "startMs": 14050,
+          "endMs": 14800
+        },
+        {
+          "text": "Switch",
+          "startMs": 14900,
+          "endMs": 15150
+        },
+        {
+          "text": "to",
+          "startMs": 15200,
+          "endMs": 15250
+        },
+        {
+          "text": "the",
+          "startMs": 15275,
+          "endMs": 15325
+        },
+        {
+          "text": "corrected",
+          "startMs": 15375,
+          "endMs": 15800
+        },
+        {
+          "text": "fixture",
+          "startMs": 15850,
+          "endMs": 16250
+        },
+        {
+          "text": "under",
+          "startMs": 16275,
+          "endMs": 16400
+        },
+        {
+          "text": "the",
+          "startMs": 16425,
+          "endMs": 16500
+        },
+        {
+          "text": "same",
+          "startMs": 16575,
+          "endMs": 16825
+        },
+        {
+          "text": "controlled",
+          "startMs": 16875,
+          "endMs": 17325
+        },
+        {
+          "text": "rule:",
+          "startMs": 17375,
+          "endMs": 17925
+        },
+        {
+          "text": "just",
+          "startMs": 17975,
+          "endMs": 18200
+        },
+        {
+          "text": "one",
+          "startMs": 18275,
+          "endMs": 18525
+        },
+        {
+          "text": "side",
+          "startMs": 18600,
+          "endMs": 18850
+        },
+        {
+          "text": "effect.",
+          "startMs": 18875,
+          "endMs": 19625
+        },
+        {
+          "text": "Verified",
+          "startMs": 19725,
+          "endMs": 20225
+        },
+        {
+          "text": "pass.",
+          "startMs": 20275,
+          "endMs": 21100
+        },
+        {
+          "text": "These",
+          "startMs": 21175,
+          "endMs": 21425
+        },
+        {
+          "text": "are",
+          "startMs": 21475,
+          "endMs": 21575
+        },
+        {
+          "text": "reproducible",
+          "startMs": 21625,
+          "endMs": 22325
+        },
+        {
+          "text": "first-party",
+          "startMs": 22400,
+          "endMs": 22950
+        },
+        {
+          "text": "simulations,",
+          "startMs": 23000,
+          "endMs": 24000
+        },
+        {
+          "text": "not",
+          "startMs": 24075,
+          "endMs": 24250
+        },
+        {
+          "text": "claims",
+          "startMs": 24300,
+          "endMs": 24600
+        },
+        {
+          "text": "about",
+          "startMs": 24625,
+          "endMs": 24800
+        },
+        {
+          "text": "a",
+          "startMs": 24825,
+          "endMs": 24875
+        },
+        {
+          "text": "real",
+          "startMs": 24950,
+          "endMs": 25200
+        },
+        {
+          "text": "bank",
+          "startMs": 25250,
+          "endMs": 25625
+        },
+        {
+          "text": "or",
+          "startMs": 25700,
+          "endMs": 25825
+        },
+        {
+          "text": "an",
+          "startMs": 25875,
+          "endMs": 25925
+        },
+        {
+          "text": "external",
+          "startMs": 25975,
+          "endMs": 26475
+        },
+        {
+          "text": "repository.",
+          "startMs": 26525,
+          "endMs": 27355
+        }
+      ]
+    },
+    "S09": {
+      "text": "The engineering workflow was tested too. TestSprite automatically ran on our GitHub pull request. Earlier blocked checks prompted real improvements and repeat verification. On the final pull request head, the official TestSprite V three suite passed all ninety-seven tests, with zero failures and zero blocked cases, before merge.",
+      "audio": "audio/generated/S09.wav",
+      "durationMs": 21491,
+      "alignmentConfidence": 0.984326,
+      "words": [
+        {
+          "text": "The",
+          "startMs": 48,
+          "endMs": 98
+        },
+        {
+          "text": "engineering",
+          "startMs": 198,
+          "endMs": 748
+        },
+        {
+          "text": "workflow",
+          "startMs": 798,
+          "endMs": 1298
+        },
+        {
+          "text": "was",
+          "startMs": 1348,
+          "endMs": 1473
+        },
+        {
+          "text": "tested",
+          "startMs": 1523,
+          "endMs": 1873
+        },
+        {
+          "text": "too.",
+          "startMs": 1948,
+          "endMs": 2698
+        },
+        {
+          "text": "TestSprite",
+          "startMs": 2773,
+          "endMs": 3473
+        },
+        {
+          "text": "automatically",
+          "startMs": 3548,
+          "endMs": 4173
+        },
+        {
+          "text": "ran",
+          "startMs": 4248,
+          "endMs": 4548
+        },
+        {
+          "text": "on",
+          "startMs": 4598,
+          "endMs": 4648
+        },
+        {
+          "text": "our",
+          "startMs": 4673,
+          "endMs": 4773
+        },
+        {
+          "text": "GitHub",
+          "startMs": 4823,
+          "endMs": 5173
+        },
+        {
+          "text": "pull",
+          "startMs": 5223,
+          "endMs": 5423
+        },
+        {
+          "text": "request.",
+          "startMs": 5473,
+          "endMs": 6498
+        },
+        {
+          "text": "Earlier",
+          "startMs": 6573,
+          "endMs": 6898
+        },
+        {
+          "text": "blocked",
+          "startMs": 6948,
+          "endMs": 7248
+        },
+        {
+          "text": "checks",
+          "startMs": 7298,
+          "endMs": 7673
+        },
+        {
+          "text": "prompted",
+          "startMs": 7723,
+          "endMs": 8148
+        },
+        {
+          "text": "real",
+          "startMs": 8223,
+          "endMs": 8473
+        },
+        {
+          "text": "improvements",
+          "startMs": 8523,
+          "endMs": 9223
+        },
+        {
+          "text": "and",
+          "startMs": 9298,
+          "endMs": 9373
+        },
+        {
+          "text": "repeat",
+          "startMs": 9423,
+          "endMs": 9748
+        },
+        {
+          "text": "verification.",
+          "startMs": 9798,
+          "endMs": 11198
+        },
+        {
+          "text": "On",
+          "startMs": 11298,
+          "endMs": 11398
+        },
+        {
+          "text": "the",
+          "startMs": 11398,
+          "endMs": 11473
+        },
+        {
+          "text": "final",
+          "startMs": 11548,
+          "endMs": 11898
+        },
+        {
+          "text": "pull",
+          "startMs": 11948,
+          "endMs": 12148
+        },
+        {
+          "text": "request",
+          "startMs": 12173,
+          "endMs": 12523
+        },
+        {
+          "text": "head,",
+          "startMs": 12573,
+          "endMs": 13123
+        },
+        {
+          "text": "the",
+          "startMs": 13173,
+          "endMs": 13223
+        },
+        {
+          "text": "official",
+          "startMs": 13323,
+          "endMs": 13723
+        },
+        {
+          "text": "TestSprite",
+          "startMs": 13798,
+          "endMs": 14523
+        },
+        {
+          "text": "V",
+          "startMs": 14598,
+          "endMs": 14773
+        },
+        {
+          "text": "three",
+          "startMs": 14848,
+          "endMs": 15073
+        },
+        {
+          "text": "suite",
+          "startMs": 15148,
+          "endMs": 15448
+        },
+        {
+          "text": "passed",
+          "startMs": 15523,
+          "endMs": 15873
+        },
+        {
+          "text": "all",
+          "startMs": 15948,
+          "endMs": 16123
+        },
+        {
+          "text": "ninety-seven",
+          "startMs": 16173,
+          "endMs": 16773
+        },
+        {
+          "text": "tests,",
+          "startMs": 16823,
+          "endMs": 17598
+        },
+        {
+          "text": "with",
+          "startMs": 17648,
+          "endMs": 17798
+        },
+        {
+          "text": "zero",
+          "startMs": 17898,
+          "endMs": 18223
+        },
+        {
+          "text": "failures",
+          "startMs": 18298,
+          "endMs": 18823
+        },
+        {
+          "text": "and",
+          "startMs": 18898,
+          "endMs": 18998
+        },
+        {
+          "text": "zero",
+          "startMs": 19073,
+          "endMs": 19398
+        },
+        {
+          "text": "blocked",
+          "startMs": 19448,
+          "endMs": 19748
+        },
+        {
+          "text": "cases,",
+          "startMs": 19798,
+          "endMs": 20448
+        },
+        {
+          "text": "before",
+          "startMs": 20498,
+          "endMs": 20773
+        },
+        {
+          "text": "merge.",
+          "startMs": 20823,
+          "endMs": 21291
+        }
+      ]
+    },
+    "S10": {
+      "text": "After merge, our independent C I also passed one hundred eighteen unit tests and seventy Chromium browser tests. Each result links back to a verifiable run.",
+      "audio": "audio/generated/S10.wav",
+      "durationMs": 10622,
+      "alignmentConfidence": 1.0,
+      "words": [
+        {
+          "text": "After",
+          "startMs": 94,
+          "endMs": 369
+        },
+        {
+          "text": "merge,",
+          "startMs": 419,
+          "endMs": 994
+        },
+        {
+          "text": "our",
+          "startMs": 1044,
+          "endMs": 1169
+        },
+        {
+          "text": "independent",
+          "startMs": 1219,
+          "endMs": 1769
+        },
+        {
+          "text": "C",
+          "startMs": 1869,
+          "endMs": 2144
+        },
+        {
+          "text": "I",
+          "startMs": 2219,
+          "endMs": 2319
+        },
+        {
+          "text": "also",
+          "startMs": 2369,
+          "endMs": 2669
+        },
+        {
+          "text": "passed",
+          "startMs": 2719,
+          "endMs": 3069
+        },
+        {
+          "text": "one",
+          "startMs": 3119,
+          "endMs": 3219
+        },
+        {
+          "text": "hundred",
+          "startMs": 3269,
+          "endMs": 3569
+        },
+        {
+          "text": "eighteen",
+          "startMs": 3619,
+          "endMs": 3944
+        },
+        {
+          "text": "unit",
+          "startMs": 3994,
+          "endMs": 4219
+        },
+        {
+          "text": "tests",
+          "startMs": 4269,
+          "endMs": 4969
+        },
+        {
+          "text": "and",
+          "startMs": 5069,
+          "endMs": 5194
+        },
+        {
+          "text": "seventy",
+          "startMs": 5294,
+          "endMs": 5619
+        },
+        {
+          "text": "Chromium",
+          "startMs": 5694,
+          "endMs": 6144
+        },
+        {
+          "text": "browser",
+          "startMs": 6194,
+          "endMs": 6544
+        },
+        {
+          "text": "tests.",
+          "startMs": 6594,
+          "endMs": 7594
+        },
+        {
+          "text": "Each",
+          "startMs": 7669,
+          "endMs": 7894
+        },
+        {
+          "text": "result",
+          "startMs": 7944,
+          "endMs": 8294
+        },
+        {
+          "text": "links",
+          "startMs": 8369,
+          "endMs": 8644
+        },
+        {
+          "text": "back",
+          "startMs": 8694,
+          "endMs": 8969
+        },
+        {
+          "text": "to",
+          "startMs": 9044,
+          "endMs": 9144
+        },
+        {
+          "text": "a",
+          "startMs": 9194,
+          "endMs": 9244
+        },
+        {
+          "text": "verifiable",
+          "startMs": 9294,
+          "endMs": 9994
+        },
+        {
+          "text": "run.",
+          "startMs": 10044,
+          "endMs": 10432
+        }
+      ]
+    },
+    "S11": {
+      "text": "FlowGuard A I. Evidence before verdicts. Don't just review code. Prove the behavior.",
+      "audio": "audio/generated/S11.wav",
+      "durationMs": 5800,
+      "alignmentConfidence": 0.953488,
+      "words": [
+        {
+          "text": "FlowGuard",
+          "startMs": 140,
+          "endMs": 640
+        },
+        {
+          "text": "A",
+          "startMs": 665,
+          "endMs": 715
+        },
+        {
+          "text": "I.",
+          "startMs": 790,
+          "endMs": 1340
+        },
+        {
+          "text": "Evidence",
+          "startMs": 1435,
+          "endMs": 1835
+        },
+        {
+          "text": "before",
+          "startMs": 1885,
+          "endMs": 2135
+        },
+        {
+          "text": "verdicts.",
+          "startMs": 2185,
+          "endMs": 3085
+        },
+        {
+          "text": "Don't",
+          "startMs": 3160,
+          "endMs": 3335
+        },
+        {
+          "text": "just",
+          "startMs": 3360,
+          "endMs": 3535
+        },
+        {
+          "text": "review",
+          "startMs": 3585,
+          "endMs": 3860
+        },
+        {
+          "text": "code.",
+          "startMs": 3910,
+          "endMs": 4360
+        },
+        {
+          "text": "Prove",
+          "startMs": 4585,
+          "endMs": 4835
+        },
+        {
+          "text": "the",
+          "startMs": 4860,
+          "endMs": 4910
+        },
+        {
+          "text": "behavior.",
+          "startMs": 4960,
+          "endMs": 5610
+        }
+      ]
+    },
+    "PILOT": {
+      "text": "Now watch our controlled Verification Lab. Two refund attempts run concurrently with the same logical key. The vulnerable fixture commits two side effects. Verified fail. Reserve the key before asynchronous work, and only one effect is committed. Verified pass.",
+      "audio": "audio/generated/PILOT.wav",
+      "durationMs": 17383,
+      "alignmentConfidence": 0.991903,
+      "words": [
+        {
+          "text": "Now",
+          "startMs": 123,
+          "endMs": 373
+        },
+        {
+          "text": "watch",
+          "startMs": 423,
+          "endMs": 698
+        },
+        {
+          "text": "our",
+          "startMs": 723,
+          "endMs": 823
+        },
+        {
+          "text": "controlled",
+          "startMs": 873,
+          "endMs": 1373
+        },
+        {
+          "text": "Verification",
+          "startMs": 1423,
+          "endMs": 2123
+        },
+        {
+          "text": "Lab.",
+          "startMs": 2173,
+          "endMs": 2798
+        },
+        {
+          "text": "Two",
+          "startMs": 2873,
+          "endMs": 3048
+        },
+        {
+          "text": "refund",
+          "startMs": 3098,
+          "endMs": 3473
+        },
+        {
+          "text": "attempts",
+          "startMs": 3523,
+          "endMs": 3973
+        },
+        {
+          "text": "run",
+          "startMs": 4023,
+          "endMs": 4198
+        },
+        {
+          "text": "concurrently",
+          "startMs": 4248,
+          "endMs": 4898
+        },
+        {
+          "text": "with",
+          "startMs": 4948,
+          "endMs": 5073
+        },
+        {
+          "text": "the",
+          "startMs": 5073,
+          "endMs": 5148
+        },
+        {
+          "text": "same",
+          "startMs": 5223,
+          "endMs": 5523
+        },
+        {
+          "text": "logical",
+          "startMs": 5573,
+          "endMs": 6073
+        },
+        {
+          "text": "key.",
+          "startMs": 6123,
+          "endMs": 6923
+        },
+        {
+          "text": "The",
+          "startMs": 6998,
+          "endMs": 7073
+        },
+        {
+          "text": "vulnerable",
+          "startMs": 7148,
+          "endMs": 7648
+        },
+        {
+          "text": "fixture",
+          "startMs": 7723,
+          "endMs": 8173
+        },
+        {
+          "text": "commits",
+          "startMs": 8248,
+          "endMs": 8623
+        },
+        {
+          "text": "two",
+          "startMs": 8723,
+          "endMs": 8923
+        },
+        {
+          "text": "side",
+          "startMs": 8998,
+          "endMs": 9273
+        },
+        {
+          "text": "effects.",
+          "startMs": 9298,
+          "endMs": 10148
+        },
+        {
+          "text": "Verified",
+          "startMs": 10248,
+          "endMs": 10798
+        },
+        {
+          "text": "fail.",
+          "startMs": 10848,
+          "endMs": 11448
+        },
+        {
+          "text": "Reserve",
+          "startMs": 11523,
+          "endMs": 11898
+        },
+        {
+          "text": "the",
+          "startMs": 11948,
+          "endMs": 11998
+        },
+        {
+          "text": "key",
+          "startMs": 12073,
+          "endMs": 12323
+        },
+        {
+          "text": "before",
+          "startMs": 12373,
+          "endMs": 12698
+        },
+        {
+          "text": "asynchronous",
+          "startMs": 12748,
+          "endMs": 13248
+        },
+        {
+          "text": "work,",
+          "startMs": 13298,
+          "endMs": 13748
+        },
+        {
+          "text": "and",
+          "startMs": 13798,
+          "endMs": 13898
+        },
+        {
+          "text": "only",
+          "startMs": 13948,
+          "endMs": 14248
+        },
+        {
+          "text": "one",
+          "startMs": 14323,
+          "endMs": 14448
+        },
+        {
+          "text": "effect",
+          "startMs": 14498,
+          "endMs": 14873
+        },
+        {
+          "text": "is",
+          "startMs": 14923,
+          "endMs": 15023
+        },
+        {
+          "text": "committed.",
+          "startMs": 15073,
+          "endMs": 15998
+        },
+        {
+          "text": "Verified",
+          "startMs": 16098,
+          "endMs": 16648
+        },
+        {
+          "text": "pass.",
+          "startMs": 16698,
+          "endMs": 17173
+        }
+      ]
+    }
+  }
+}

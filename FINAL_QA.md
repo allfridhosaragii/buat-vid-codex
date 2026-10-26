@@ -1,62 +1,72 @@
-# FlowGuard AI Cinematic Video V2 — QA Status
+# FlowGuard AI Cinematic Video V2 — Final QA
 
-This file distinguishes observed results from unfinished work. A runnable composition is not the same as a completed narrated film.
+Observed results from Codex Cloud on 2026-10-26. The two mastered MP4s below are real playable files, not inferred workflow outputs.
 
-## VERIFIED PASS
+## Verified master
 
-| Check | Evidence |
+| Check | Observed result |
 |---|---|
-| Seed assets | 29/29 SHA-256 hashes match `docs/10_ASSET_SHA256.csv` |
-| Timeline manifest | 11 continuous scenes, frames 0–6299, 6,300 frames total |
-| Remotion metadata | `FlowGuardDemo`: 1920×1080, 30 FPS, 6,300 frames / 210 seconds |
-| Pilot metadata | `V2ProofSample`: H.264, 1920×1080, 30 FPS, 19.000 seconds |
-| Pilot visual inspection | Nine temporal samples inspected; vulnerable and corrected stages, evidence screenshots, and 2→1 result are visible |
-| Pilot blank-frame check | ffmpeg `blackdetect` reported no black interval |
-| Full silent draft | H.264, 960×540, 30 FPS, exactly 6,300 frames / 210.000 seconds |
-| Full visual inspection | All 11 scene midpoints plus every scene boundary sampled; first-frame content floor added after the first boundary review |
-| Full blank-frame check | Corrected 210-second draft produced no ffmpeg `blackdetect` interval |
+| File | `remotion-project/out/FlowGuardDemo_V2_3m30_MASTERED.mp4` |
+| Video | H.264, 1920×1080, 30/1 FPS |
+| Timeline | 6,300 decoded frames, 210.000 seconds, 11 continuous scenes |
+| Audio | AAC, 48 kHz, stereo; narration plus original generated sound design |
+| Loudness scan | -16.24 LUFS integrated, -1.44 dB true peak, 5.90 LU LRA |
+| Size | 41,867,042 bytes |
+| SHA-256 | `4da23899df4b7c93c978f36d586bef4a000a46a670e3f30820fc492354d533dc` |
+| Decode test | Complete video and audio decode passed with no ffmpeg error |
+| Blank-frame scan | No `blackdetect` interval reported |
+| Visual inspection | Twelve representative 1080p frames inspected across all scenes, including fail/pass lab states, S09, S10, and closing |
+
+## Verified pilot
+
+| Check | Observed result |
+|---|---|
+| File | `remotion-project/out/V2ProofSample_MASTERED.mp4` |
+| Video | H.264, 1920×1080, 30/1 FPS |
+| Timeline | 570 decoded frames, 19.000 seconds |
+| Audio | AAC, 48 kHz, stereo; narration plus original generated sound design |
+| Loudness scan | -16.33 LUFS integrated, -1.48 dB true peak, 5.10 LU LRA |
+| Size | 4,898,118 bytes |
+| SHA-256 | `e2213b6d8d6b59971df172663f78ad29f6913b8a083b36a52b65dc31d4f4153d` |
+| Decode test | Complete video and audio decode passed with no ffmpeg error |
+| Blank-frame scan | No `blackdetect` interval reported |
+
+## Source and timing QA
+
+| Check | Result |
+|---|---|
 | TypeScript | `npm run typecheck` passes |
-| Source QA | `npm run test:timeline` passes factual-label, FPS, continuity, and active non-cropping checks |
-| Product screenshot policy | Active director uses `objectFit: contain`; genuine media remains recognizable |
-| Evidence wording | Conditional, POTENTIAL, historical/final, synthetic, and browser-scope boundaries are explicit |
+| Timeline contract | 1920×1080, 30 FPS, 6,300 frames, 11 continuous scenes passes |
+| Narration bounds | All 12 audio tracks fit their scene/composition |
+| Word timing | Monotonic and within audio duration for every word |
+| Alignment evidence | Kokoro model phoneme durations plus contextual forced alignment; 93.72–100% confidence |
+| Model provenance | Kokoro ONNX v1.0, Apache-2.0; model and voices SHA-256 pinned in `tools/tts/model-manifest.json` |
+| Screenshot policy | Genuine images use `objectFit: contain`; no evidence crop |
+| TestSprite history | Historical screenshot and final report labels are explicitly separated in S09 |
+| Factual scope | Public reports remain reports; Medusa risk remains conditional; external analysis remains POTENTIAL; lab remains first-party synthetic; Playwright remains Chromium-only |
 
-## NOT VERIFIED / BLOCKED
+## Five-audience and skeptical-review coverage
 
-| Check | Status |
+| Audience | Coverage |
 |---|---|
-| Natural English narration | `AUDIO_BLOCKED`; no suitable open TTS model installed and no voice was cloned or fetched from an unapproved service |
-| Word-level alignment | Not verified because produced narration does not exist; current highlight timing is a visual draft only |
-| AAC audio / loudness / clipping | Not applicable to the silent draft |
-| 1080p 210-second final MP4 | Not yet rendered; never infer completion from source or workflow YAML |
-| Fresh GitHub Actions execution | Workflow is committed source only until a user manually triggers it |
-| Pull request object | Not created: GitHub GraphQL returned `403 Forbidden`; pushed branch is ready at the compare URL recorded in `PROGRESS.md` |
+| Ordinary user | Human impact and report uncertainty in S01–S03 |
+| Developer | Retry-key mechanics, invariant, and three-stage analysis in S04–S07 |
+| CTO / tech lead | Business invariant, product workflow, and linked post-merge CI |
+| QA / security | Reproducible synthetic fail/pass lab and exact test counts |
+| Hackathon judge | Genuine product UI, cinematic pilot, vendor verification, and closing proposition |
+| Skeptical reviewer | Persistent provenance, limitation badges, historical/final separation, exact SHAs, and no external-system causation claims |
 
-## Five-audience evidence matrix
-
-| Audience | Timecodes and answer |
-|---|---|
-| Ordinary user | 00:12 report with cause unverified; 02:13 lab makes 2 effects versus 1 understandable |
-| Developer | 00:50 conditional retry-key path; 01:43 analyst/risk/planner pipeline |
-| CTO / tech lead | 01:10 explicit invariant; 03:12 independently linked post-merge CI |
-| QA / security | 02:13 synthetic fixture scope and reproducible outcomes; 02:49 exact PR head and vendor result |
-| Hackathon judge | 01:26 genuine product UI; 02:49 and 03:12 linked testing evidence |
-| Skeptic (cross-cutting) | Persistent source footers, exact SHAs, POTENTIAL/VERIFIED distinctions, and limitations |
-
-## Expected local outputs
-
-- `remotion-project/out/V2ProofSample.mp4` — actual local pilot, ignored by Git.
-- `remotion-project/out/FlowGuardDemo_V2_draft.mp4` — silent 540p review draft when render succeeds, ignored by Git.
-- `remotion-project/out/FlowGuardDemo_V2_3m30.mp4` — reserved final filename; not present unless a full final render succeeds.
-
-## Reproduce
+## Reproduce locally
 
 ```bash
 cd remotion-project
-NPM_CONFIG_CACHE=/tmp/flowguard-npm-cache npm ci
+npm ci
+npm run tts:setup
+npm run tts:generate
 npm test
-npm run compositions
-npm run render:proof
-npm run render:draft
-# Only after narration/alignment is complete:
-npm run render:final
+npm run render:proof && npm run master:proof
+npm run render:draft && npm run master:draft
+npm run render:final && npm run master:final
 ```
+
+The manual GitHub Actions workflow performs the same TTS, validation, render, mastering, probe, and artifact upload steps. It has not been triggered in this task.
