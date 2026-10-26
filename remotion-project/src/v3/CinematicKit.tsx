@@ -26,7 +26,7 @@ export const SceneFrame: React.FC<{accent?: string; children: React.ReactNode; c
     </div>
     {vignette && <div style={{position:'absolute',inset:0,pointerEvents:'none',background:'radial-gradient(circle at center,transparent 46%,rgba(0,0,0,.5) 100%)'}}/>}
     <div style={{position:'absolute',inset:0,pointerEvents:'none',zIndex:90,opacity:.08,background:'repeating-linear-gradient(0deg,transparent 0 3px,rgba(255,255,255,.18) 4px)'}}/>
-    <div style={{position:'absolute',inset:0,pointerEvents:'none',zIndex:91,opacity:1-entry,background:`radial-gradient(circle at center,${accent}cc 0%,#fff 8%,#061019 48%)`,transform:`scale(${1.8-entry*.8})`}}/>
+    <div style={{position:'absolute',inset:0,pointerEvents:'none',zIndex:91,opacity:(1-entry)*.34,background:`radial-gradient(circle at center,#fff 0%,${accent}aa 7%,transparent 43%)`,transform:`scale(${1.65-entry*.65})`}}/>
     <div style={{position:'absolute',inset:0,pointerEvents:'none',opacity:.055,backgroundImage:'url("data:image/svg+xml,%3Csvg viewBox=%270 0 160 160%27 xmlns=%27http://www.w3.org/2000/svg%27%3E%3Cfilter id=%27n%27%3E%3CfeTurbulence type=%27fractalNoise%27 baseFrequency=%27.9%27 numOctaves=%273%27 stitchTiles=%27stitch%27/%3E%3C/filter%3E%3Crect width=%27100%25%27 height=%27100%25%27 filter=%27url(%23n)%27 opacity=%27.7%27/%3E%3C/svg%3E")'}}/>
   </AbsoluteFill>;
 };

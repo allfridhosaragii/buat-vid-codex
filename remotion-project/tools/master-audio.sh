@@ -8,7 +8,9 @@ case "$target" in
   final) input='out/FlowGuardDemo_V2_3m30.mp4'; duration='210' ;;
   v3-preview) input='out/FlowGuardDemo_V3_preview.mp4'; duration='210' ;;
   v3-final) input='out/FlowGuardDemo_V3_3m30.mp4'; duration='210' ;;
-  *) echo 'usage: tools/master-audio.sh proof|draft|final|v3-preview|v3-final' >&2; exit 2 ;;
+  v4-preview) input='out/FlowGuardDemo_V4_preview.mp4'; duration='210' ;;
+  v4-final) input='out/FlowGuardDemo_V4_3m30.mp4'; duration='210' ;;
+  *) echo 'usage: tools/master-audio.sh proof|draft|final|v3-preview|v3-final|v4-preview|v4-final' >&2; exit 2 ;;
 esac
 
 output="${input%.mp4}_MASTERED.mp4"
