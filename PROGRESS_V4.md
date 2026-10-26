@@ -17,8 +17,10 @@ Updated: 2026-10-27 (Asia/Jakarta)
 - Rendered and inspected the complete S01 proof at native 1080p.
 - Rendered and inspected six representative S08 proof frames at native 1080p.
 
-## Next production gate
+## Final production
 
-- Render a full 540p V4 editorial draft and inspect one-second contact sheets.
-- Tune any collisions or over-bright frames found in the draft.
-- Render, master, decode, and publish a new native 1080p V4 deliverable plus a sub-32 MiB download copy.
+- Rendered and mastered the full 540p V4 editorial draft; inspected 210 one-second samples.
+- Reduced entry-bloom intensity after the contact-sheet audit.
+- Rendered and mastered the native 1920×1080 V4 film.
+- Created a browser-compatible 26.9 MB 1080p download copy.
+- Both deliverables passed complete FFmpeg decode; master metadata, checksums, loudness, black-frame scan, and visual inspection are recorded in `FINAL_QA_V4.md`.
