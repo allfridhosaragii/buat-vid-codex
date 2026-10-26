@@ -1,0 +1,150 @@
+{
+  "assetCount": 29,
+  "files": [
+    {
+      "path": "assets/flowguard/analysis-risk-results.webp",
+      "sha256": "86e8a0d3b0fcdbd27ebf1fec7f4a6909b3b49350d32dc75b25ad1e04efba263b",
+      "bytes": 117766
+    },
+    {
+      "path": "assets/flowguard/analysis-workspace.webp",
+      "sha256": "31e26e8d669559ff58f07709fc2823ae3ac95c8e45c1e50a47233f900fed9394",
+      "bytes": 62054
+    },
+    {
+      "path": "assets/flowguard/architecture-invariants.webp",
+      "sha256": "25391e41363c9d9e72c125a5cde858093d37921e165a7b6fe364932701896a9e",
+      "bytes": 88002
+    },
+    {
+      "path": "assets/flowguard/architecture-security-details.webp",
+      "sha256": "6d2093b909fb5d12325c21f736669e12c5aee072a7fc3c2c9dbc70636e9ca3eb",
+      "bytes": 39812
+    },
+    {
+      "path": "assets/flowguard/before-after-authentic.webp",
+      "sha256": "0c3cd9fb4fc698d8071455a32ff2bbf4687b769f5c556738434103bfbd2e0438",
+      "bytes": 191918
+    },
+    {
+      "path": "assets/flowguard/before-after-concept-art.webp",
+      "sha256": "ed2cca7aa83130f72d608892775e63a96118f0dc6700c2e7289253084cba92ce",
+      "bytes": 182444
+    },
+    {
+      "path": "assets/flowguard/flow-illustration-concept.webp",
+      "sha256": "cf9771a62f0cd8c9629810bc69525654e10a7de89ae25c4395139f5ac090e588",
+      "bytes": 219022
+    },
+    {
+      "path": "assets/flowguard/github-pr14-checks.webp",
+      "sha256": "13e1345a05e8e6a765d5560ed3defc83a7e490f95c8fc3b24f85ed5208d84094",
+      "bytes": 55224
+    },
+    {
+      "path": "assets/flowguard/github-regression-actions.webp",
+      "sha256": "200d07168805a86766fbe2bc2131816ebf78f38b8d098a8cd53842c793e79ae6",
+      "bytes": 50456
+    },
+    {
+      "path": "assets/flowguard/homepage-desktop.webp",
+      "sha256": "07a2cc67b7494208e6102ea41be0de3c7822a938899e1873c0e670ba25737cd6",
+      "bytes": 71222
+    },
+    {
+      "path": "assets/flowguard/homepage-mobile.webp",
+      "sha256": "3d80fbeb758f86bd46fa39641c0db3a66e158317384989d9b6572a05458d23d3",
+      "bytes": 40254
+    },
+    {
+      "path": "assets/flowguard/lab-corrected-evidence.webp",
+      "sha256": "514a17689dd0cc2d7603f90eac7a01b7a8fe80d8419c7e284c1e357c9d8e8bb4",
+      "bytes": 101306
+    },
+    {
+      "path": "assets/flowguard/lab-vulnerable-evidence.webp",
+      "sha256": "c32fc85af249978ff81516cd8499c55b8d623c75ca2acd5a8ca69db778a6d4a0",
+      "bytes": 101294
+    },
+    {
+      "path": "assets/flowguard/source-originals/analysis-results.png",
+      "sha256": "02dd84b19e6d1a758117f7b8d139cac8397aa6c37480885d2992590e3174af4b",
+      "bytes": 174529
+    },
+    {
+      "path": "assets/flowguard/source-originals/architecture-and-security-1.png",
+      "sha256": "6ee24ca0dc13019c260d8b1c56d6925ea04bd26f80a9d837feddfb03274b1fe0",
+      "bytes": 97456
+    },
+    {
+      "path": "assets/flowguard/source-originals/architecture-and-security-2.png",
+      "sha256": "3b8e989622b6bb1dac91d3cfbd7c46ef6805a09135146c805d1f824e52ab3de1",
+      "bytes": 52007
+    },
+    {
+      "path": "assets/flowguard/source-originals/github-actions-regression-tests.png",
+      "sha256": "9294f9701d79029b989bd8be68ad4a221a51cbed7530ad10480aaf7e26ccaf94",
+      "bytes": 98862
+    },
+    {
+      "path": "assets/flowguard/source-originals/github-pr-14-checks.png",
+      "sha256": "c623d8341926cbb81b0bb17a9b42d1cc187564cd6888e51811b0931186f97f4d",
+      "bytes": 98648
+    },
+    {
+      "path": "assets/flowguard/source-originals/homepage-flowguard-ai.png",
+      "sha256": "a6add34ddb7999d768ad8900d75281aa78c38c25e2d9f8e2fd8f508cedcac10c",
+      "bytes": 138958
+    },
+    {
+      "path": "assets/flowguard/source-originals/lab-fixed-scenario.png",
+      "sha256": "4012c5bcac4de7706515422c9f0c054bfae2f353b003f62c28183ba48e365fc2",
+      "bytes": 156247
+    },
+    {
+      "path": "assets/flowguard/source-originals/lab-vulnerable-scenario.png",
+      "sha256": "2df0007ca331f1ebc2cc9f1ba00992cbc710b4d54a9e39265c23c1630d175d2e",
+      "bytes": 154743
+    },
+    {
+      "path": "assets/flowguard/source-originals/mobile-homepage.png",
+      "sha256": "ffe578d658d4a70855906c3cc82858aed3558cf84bf5af4ac28b04204aa7e895",
+      "bytes": 53156
+    },
+    {
+      "path": "assets/flowguard/source-originals/pr-and-code-analysis.png",
+      "sha256": "03e451fe9a211cbe4213241d7bc494c7a77d4646724d72b51c8480521ce09850",
+      "bytes": 113089
+    },
+    {
+      "path": "assets/flowguard/source-originals/testsprite-official-results-1.png",
+      "sha256": "8261eaf1d8af825be4a143958686d5ede06f0942defe81882c6dd7705e7cf949",
+      "bytes": 136205
+    },
+    {
+      "path": "assets/flowguard/source-originals/testsprite-official-results-2.png",
+      "sha256": "97f518c88d0db4e4c6cf30d9de520f96bc30bc92888e62ab746c683da8e63350",
+      "bytes": 237727
+    },
+    {
+      "path": "assets/flowguard/source-originals/verification-lab.png",
+      "sha256": "8f3a98a0b9a129332fd9c5415842cba33662866848ba55017054dd267267d804",
+      "bytes": 124262
+    },
+    {
+      "path": "assets/flowguard/testsprite-97-passed-details.webp",
+      "sha256": "4a1db072c853f6f16ca0b1438faea5e796315b8ed787358bb402511dd621176f",
+      "bytes": 73098
+    },
+    {
+      "path": "assets/flowguard/testsprite-97-passed-overview.webp",
+      "sha256": "c81df9e73d3b60ffec47393404787bf16dafeb0794fdadeeb2be6bcc99a2c3cb",
+      "bytes": 74008
+    },
+    {
+      "path": "assets/flowguard/verification-lab-overview.webp",
+      "sha256": "604f1c8f17f83c5303f03afa01ea20a93f87143cbbaf49fc5989150fa647a4f3",
+      "bytes": 72824
+    }
+  ]
+}

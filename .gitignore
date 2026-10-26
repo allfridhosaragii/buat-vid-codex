@@ -1,0 +1,27 @@
+node_modules/
+.next/
+dist/
+build/
+.cache/
+.env
+.env.*
+!.env.example
+.remotion/
+**/.remotion/
+# Render outputs are delivered as download / CI artifacts, not tracked as Git objects
+out/
+**/out/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.flac
+# Third-party reference clips / contact sheets are never for public GitHub
+reference-videos/
+private-reference-videos/
+private-contact-sheets/
+*.pt
+*.pth
+*.safetensors
+# Diagnostics large / local scratch
+.tmp/

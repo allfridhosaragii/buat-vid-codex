@@ -1,0 +1,110 @@
+{
+  "compositionId": "FlowGuardDemo",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "durationInFrames": 6300,
+  "durationSeconds": 210,
+  "baselineVideoCommit": "5de55c48fadd69330639cda2756be62fd0cf1321",
+  "scenes": [
+    {
+      "id": "S01",
+      "name": "Hook",
+      "from": 0,
+      "toExclusive": 360,
+      "durationInFrames": 360,
+      "seconds": 12.0,
+      "povs": "ordinary user; jury"
+    },
+    {
+      "id": "S02",
+      "name": "Indonesian QRIS report",
+      "from": 360,
+      "toExclusive": 990,
+      "durationInFrames": 630,
+      "seconds": 21.0,
+      "povs": "ordinary user; skeptic"
+    },
+    {
+      "id": "S03",
+      "name": "Uber Eats pending hold report",
+      "from": 990,
+      "toExclusive": 1500,
+      "durationInFrames": 510,
+      "seconds": 17.0,
+      "povs": "ordinary user; skeptic"
+    },
+    {
+      "id": "S04",
+      "name": "Medusa GitHub risk issue",
+      "from": 1500,
+      "toExclusive": 2100,
+      "durationInFrames": 600,
+      "seconds": 20.0,
+      "povs": "developer; skeptic"
+    },
+    {
+      "id": "S05",
+      "name": "Business invariant",
+      "from": 2100,
+      "toExclusive": 2580,
+      "durationInFrames": 480,
+      "seconds": 16.0,
+      "povs": "developer; CTO"
+    },
+    {
+      "id": "S06",
+      "name": "Product reveal",
+      "from": 2580,
+      "toExclusive": 3090,
+      "durationInFrames": 510,
+      "seconds": 17.0,
+      "povs": "ordinary user; CTO"
+    },
+    {
+      "id": "S07",
+      "name": "Three-stage code analysis",
+      "from": 3090,
+      "toExclusive": 3990,
+      "durationInFrames": 900,
+      "seconds": 30.0,
+      "povs": "developer; CTO; QA"
+    },
+    {
+      "id": "S08",
+      "name": "Controlled Verification Lab",
+      "from": 3990,
+      "toExclusive": 5070,
+      "durationInFrames": 1080,
+      "seconds": 36.0,
+      "povs": "QA; security; developer; skeptic"
+    },
+    {
+      "id": "S09",
+      "name": "TestSprite final PR proof",
+      "from": 5070,
+      "toExclusive": 5760,
+      "durationInFrames": 690,
+      "seconds": 23.0,
+      "povs": "judge; QA; CTO; skeptic"
+    },
+    {
+      "id": "S10",
+      "name": "Postmerge independent CI",
+      "from": 5760,
+      "toExclusive": 6090,
+      "durationInFrames": 330,
+      "seconds": 11.0,
+      "povs": "judge; CTO; QA; skeptic"
+    },
+    {
+      "id": "S11",
+      "name": "Closing call-to-action",
+      "from": 6090,
+      "toExclusive": 6300,
+      "durationInFrames": 210,
+      "seconds": 7.0,
+      "povs": "all roles"
+    }
+  ]
+}
