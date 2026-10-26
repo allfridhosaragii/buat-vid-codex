@@ -28,5 +28,5 @@ Generated media and model files remain ignored by Git. Source, hashes, timings, 
 ## Remaining delivery steps
 
 - Commit and push this review branch.
-- Open a PR against `main` if GitHub API authorization is available. Do not merge automatically.
+- PR creation was attempted through both GitHub GraphQL and REST APIs; both returned `403 Forbidden`. The pushed review branch is ready at `https://github.com/allfridhosaragii/buat-vid-codex/compare/main...codex/flowguard-v2-narration`. Do not merge automatically.
 - The manual GitHub Actions render may be triggered later if a downloadable Actions artifact is desired; it was not run here because the user prohibited unapproved expensive Actions jobs.
