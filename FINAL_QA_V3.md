@@ -8,6 +8,14 @@ Verified: 2026-10-27 (Asia/Jakarta)
 - SHA-256: `5439067dcee1fc760e31ac442da82f0a14f6f59967f8b6b83749eedbf9b69beb`
 - Size: 61,738,144 bytes
 
+Download-sized distribution copy:
+
+- File: `remotion-project/out/FlowGuardDemo_V3_1080p_DOWNLOAD.mp4`
+- SHA-256: `83ad3b5238bccd6df9a3fcfc8fd9611874ce9c38ba4be96c1a57163e2aac6850`
+- Size: 26,531,231 bytes, below the Codex artifact download limit.
+- Video remains 1920×1080 H.264 High Level 4.1, `yuv420p`, 30 fps, with AAC-LC 48 kHz stereo audio.
+- Full FFmpeg decode: PASS.
+
 ## Media verification
 
 | Check | Result |

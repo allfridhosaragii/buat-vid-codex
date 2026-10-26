@@ -35,6 +35,7 @@
     "master:proof": "bash tools/master-audio.sh proof",
     "master:draft": "bash tools/master-audio.sh v3-preview",
     "master:final": "bash tools/master-audio.sh v3-final",
+    "export:download": "ffmpeg -y -loglevel error -i out/FlowGuardDemo_V3_3m30.mp4 -map 0:v:0 -map 0:a:0 -vf 'scale=in_range=full:out_range=tv,format=yuv420p' -c:v libx264 -profile:v high -level:v 4.1 -pix_fmt yuv420p -color_range tv -preset medium -b:v 900k -maxrate 1200k -bufsize 2400k -c:a aac -b:a 128k -ar 48000 -movflags +faststart out/FlowGuardDemo_V3_1080p_DOWNLOAD.mp4",
     "tts:setup": "cd .. && bash tools/tts/setup.sh",
     "tts:generate": "cd .. && .venv-tts/bin/python tools/tts/generate_narration.py && .venv-tts/bin/python tools/tts/generate_sound_design.py",
     "test:audio": "node tools/verify-narration.mjs",
