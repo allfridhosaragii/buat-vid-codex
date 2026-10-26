@@ -17,6 +17,22 @@ from kokoro_onnx.tokenizer import Tokenizer
 from phonemizer.separator import Separator
 
 
+VOICE_PROFILES = {
+    "S01": {"speed": 0.92, "sentence_pause": 0.36, "clause_pause": 0.16, "direction": "reflective, intimate"},
+    "S02": {"speed": 0.97, "sentence_pause": 0.32, "clause_pause": 0.14, "direction": "empathetic, restrained"},
+    "S03": {"speed": 0.96, "sentence_pause": 0.34, "clause_pause": 0.15, "direction": "analytical caution"},
+    "S04": {"speed": 1.04, "sentence_pause": 0.26, "clause_pause": 0.10, "direction": "technical tension"},
+    "S05": {"speed": 1.02, "sentence_pause": 0.29, "clause_pause": 0.12, "direction": "clear authority"},
+    "S06": {"speed": 0.96, "sentence_pause": 0.34, "clause_pause": 0.14, "direction": "confident product reveal"},
+    "S07": {"speed": 1.02, "sentence_pause": 0.26, "clause_pause": 0.10, "direction": "methodical momentum"},
+    "S08": {"speed": 1.04, "sentence_pause": 0.24, "clause_pause": 0.09, "direction": "energized fail/pass demonstration"},
+    "S09": {"speed": 1.00, "sentence_pause": 0.30, "clause_pause": 0.12, "direction": "restrained triumph"},
+    "S10": {"speed": 1.03, "sentence_pause": 0.25, "clause_pause": 0.10, "direction": "crisp verification"},
+    "S11": {"speed": 0.90, "sentence_pause": 0.38, "clause_pause": 0.16, "direction": "warm closing"},
+    "PILOT": {"speed": 1.04, "sentence_pause": 0.24, "clause_pause": 0.09, "direction": "energized proof sample"},
+}
+
+
 @dataclass
 class WordTiming:
     text: str
@@ -155,7 +171,7 @@ def main() -> None:
     parser.add_argument("--audio-dir", default="remotion-project/public/audio/generated")
     parser.add_argument("--timings", default="remotion-project/src/data/word-timings.json")
     parser.add_argument("--voice", default="af_heart")
-    parser.add_argument("--speed", type=float, default=1.0)
+    parser.add_argument("--speed", type=float, help="Override every scene profile speed")
     parser.add_argument("--only", action="append", help="Generate only this scene ID; repeat as needed")
     args = parser.parse_args()
 
@@ -175,13 +191,15 @@ def main() -> None:
     for scene_id, text in scripts.items():
         if scene_id not in selected:
             continue
+        profile = VOICE_PROFILES[scene_id]
+        speed = args.speed if args.speed is not None else profile["speed"]
         audio, sample_rate, phonemes = kokoro.create_timed(
             text,
             voice=args.voice,
-            speed=args.speed,
+            speed=speed,
             lang="en-us",
-            sentence_pause=0.28,
-            clause_pause=0.12,
+            sentence_pause=profile["sentence_pause"],
+            clause_pause=profile["clause_pause"],
         )
         words, confidence = align_words(kokoro, text, phonemes)
         output = audio_dir / f"{scene_id}.wav"
@@ -191,6 +209,10 @@ def main() -> None:
             "audio": f"audio/generated/{scene_id}.wav",
             "durationMs": round(len(audio) / sample_rate * 1000),
             "alignmentConfidence": round(confidence, 6),
+            "voiceDirection": profile["direction"],
+            "speed": speed,
+            "sentencePause": profile["sentence_pause"],
+            "clausePause": profile["clause_pause"],
             "words": [asdict(word) for word in words],
         }
         print(f"{scene_id}: {len(audio) / sample_rate:.3f}s, {len(words)} words, alignment {confidence:.3%}")
@@ -203,8 +225,8 @@ def main() -> None:
             "modelSha256": sha256(model),
             "voicesSha256": sha256(voices),
             "voice": args.voice,
-            "speed": args.speed,
-            "timingMethod": "Kokoro model phoneme durations aligned to per-word phonemes with Needleman-Wunsch",
+            "speed": "scene-profiled; see each scene entry",
+            "timingMethod": "Kokoro model phoneme durations aligned to contextual per-word phonemes with Needleman-Wunsch",
         },
         "scenes": scenes,
     }

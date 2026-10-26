@@ -6,138 +6,146 @@
     "modelSha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
     "voicesSha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
     "voice": "af_heart",
-    "speed": 1.0,
-    "timingMethod": "Kokoro model phoneme durations aligned to per-word phonemes with Needleman-Wunsch"
+    "speed": "scene-profiled; see each scene entry",
+    "timingMethod": "Kokoro model phoneme durations aligned to contextual per-word phonemes with Needleman-Wunsch"
   },
   "scenes": {
     "S01": {
       "text": "Behind every software failure, there can be a real person. A delayed purchase. Money temporarily unavailable. A retry that behaves differently than expected.",
       "audio": "audio/generated/S01.wav",
-      "durationMs": 10225,
+      "durationMs": 10879,
       "alignmentConfidence": 1.0,
+      "voiceDirection": "reflective, intimate",
+      "speed": 0.92,
+      "sentencePause": 0.36,
+      "clausePause": 0.16,
       "words": [
         {
           "text": "Behind",
-          "startMs": 69,
-          "endMs": 469
+          "startMs": 94,
+          "endMs": 494
         },
         {
           "text": "every",
-          "startMs": 544,
-          "endMs": 794
+          "startMs": 569,
+          "endMs": 819
         },
         {
           "text": "software",
-          "startMs": 869,
-          "endMs": 1294
+          "startMs": 894,
+          "endMs": 1319
         },
         {
           "text": "failure,",
-          "startMs": 1344,
-          "endMs": 1844
+          "startMs": 1369,
+          "endMs": 1869
         },
         {
           "text": "there",
-          "startMs": 1914,
-          "endMs": 1989
+          "startMs": 1979,
+          "endMs": 2079
         },
         {
           "text": "can",
-          "startMs": 2039,
-          "endMs": 2164
+          "startMs": 2129,
+          "endMs": 2254
         },
         {
           "text": "be",
-          "startMs": 2214,
-          "endMs": 2339
+          "startMs": 2304,
+          "endMs": 2429
         },
         {
           "text": "a",
-          "startMs": 2389,
-          "endMs": 2439
+          "startMs": 2479,
+          "endMs": 2529
         },
         {
           "text": "real",
-          "startMs": 2514,
-          "endMs": 2814
+          "startMs": 2629,
+          "endMs": 2929
         },
         {
           "text": "person.",
-          "startMs": 2864,
-          "endMs": 3714
+          "startMs": 2979,
+          "endMs": 3879
         },
         {
           "text": "A",
-          "startMs": 3789,
-          "endMs": 3839
+          "startMs": 3954,
+          "endMs": 4004
         },
         {
           "text": "delayed",
-          "startMs": 3889,
-          "endMs": 4289
+          "startMs": 4054,
+          "endMs": 4479
         },
         {
           "text": "purchase.",
-          "startMs": 4339,
-          "endMs": 5264
+          "startMs": 4529,
+          "endMs": 5529
         },
         {
           "text": "Money",
-          "startMs": 5339,
-          "endMs": 5589
+          "startMs": 5604,
+          "endMs": 5879
         },
         {
           "text": "temporarily",
-          "startMs": 5664,
-          "endMs": 6414
+          "startMs": 5954,
+          "endMs": 6754
         },
         {
           "text": "unavailable.",
-          "startMs": 6514,
-          "endMs": 7514
+          "startMs": 6854,
+          "endMs": 7904
         },
         {
           "text": "A",
-          "startMs": 7589,
-          "endMs": 7639
+          "startMs": 7979,
+          "endMs": 8029
         },
         {
           "text": "retry",
-          "startMs": 7689,
-          "endMs": 8139
+          "startMs": 8079,
+          "endMs": 8529
         },
         {
           "text": "that",
-          "startMs": 8189,
-          "endMs": 8264
+          "startMs": 8579,
+          "endMs": 8679
         },
         {
           "text": "behaves",
-          "startMs": 8289,
-          "endMs": 8739
+          "startMs": 8704,
+          "endMs": 9154
         },
         {
           "text": "differently",
-          "startMs": 8814,
-          "endMs": 9189
+          "startMs": 9254,
+          "endMs": 9654
         },
         {
           "text": "than",
-          "startMs": 9239,
-          "endMs": 9314
+          "startMs": 9704,
+          "endMs": 9804
         },
         {
           "text": "expected.",
-          "startMs": 9364,
-          "endMs": 10025
+          "startMs": 9854,
+          "endMs": 10599
         }
       ]
     },
     "S02": {
       "text": "In November twenty twenty five, an Indonesian customer publicly described a Q R I S funded app purchase. Their mobile banking balance had decreased, but the purchase never appeared, and Google Play marked it cancelled. The report describes the experience, not a verified technical root cause.",
       "audio": "audio/generated/S02.wav",
-      "durationMs": 19217,
+      "durationMs": 19549,
       "alignmentConfidence": 0.953737,
+      "voiceDirection": "empathetic, restrained",
+      "speed": 0.97,
+      "sentencePause": 0.32,
+      "clausePause": 0.14,
       "words": [
         {
           "text": "In",
@@ -162,636 +170,648 @@
         {
           "text": "five,",
           "startMs": 1376,
-          "endMs": 2001
+          "endMs": 2026
         },
         {
           "text": "an",
-          "startMs": 2076,
-          "endMs": 2101
+          "startMs": 2221,
+          "endMs": 2246
         },
         {
           "text": "Indonesian",
-          "startMs": 2151,
-          "endMs": 2801
+          "startMs": 2296,
+          "endMs": 2946
         },
         {
           "text": "customer",
-          "startMs": 2851,
-          "endMs": 3351
+          "startMs": 2996,
+          "endMs": 3496
         },
         {
           "text": "publicly",
-          "startMs": 3451,
-          "endMs": 3901
+          "startMs": 3596,
+          "endMs": 4046
         },
         {
           "text": "described",
-          "startMs": 3951,
-          "endMs": 4476
+          "startMs": 4096,
+          "endMs": 4646
         },
         {
           "text": "a",
-          "startMs": 4526,
-          "endMs": 4576
+          "startMs": 4696,
+          "endMs": 4746
         },
         {
           "text": "Q",
-          "startMs": 4676,
-          "endMs": 4976
+          "startMs": 4846,
+          "endMs": 5146
         },
         {
           "text": "R",
-          "startMs": 5051,
-          "endMs": 5351
+          "startMs": 5221,
+          "endMs": 5521
         },
         {
           "text": "I",
-          "startMs": 5451,
-          "endMs": 5601
+          "startMs": 5621,
+          "endMs": 5771
         },
         {
           "text": "S",
-          "startMs": 5676,
-          "endMs": 5876
+          "startMs": 5846,
+          "endMs": 6046
         },
         {
           "text": "funded",
-          "startMs": 5926,
-          "endMs": 6226
+          "startMs": 6096,
+          "endMs": 6396
         },
         {
           "text": "app",
-          "startMs": 6301,
-          "endMs": 6476
+          "startMs": 6471,
+          "endMs": 6646
         },
         {
           "text": "purchase.",
-          "startMs": 6526,
-          "endMs": 7626
+          "startMs": 6696,
+          "endMs": 7796
         },
         {
           "text": "Their",
-          "startMs": 7701,
-          "endMs": 7851
+          "startMs": 7871,
+          "endMs": 8021
         },
         {
           "text": "mobile",
-          "startMs": 7926,
-          "endMs": 8251
+          "startMs": 8096,
+          "endMs": 8421
         },
         {
           "text": "banking",
-          "startMs": 8301,
-          "endMs": 8626
+          "startMs": 8471,
+          "endMs": 8796
         },
         {
           "text": "balance",
-          "startMs": 8676,
-          "endMs": 9026
+          "startMs": 8846,
+          "endMs": 9196
         },
         {
           "text": "had",
-          "startMs": 9051,
-          "endMs": 9151
+          "startMs": 9221,
+          "endMs": 9321
         },
         {
           "text": "decreased,",
-          "startMs": 9201,
-          "endMs": 10126
+          "startMs": 9371,
+          "endMs": 10296
         },
         {
           "text": "but",
-          "startMs": 10176,
-          "endMs": 10276
+          "startMs": 10346,
+          "endMs": 10446
         },
         {
           "text": "the",
-          "startMs": 10301,
-          "endMs": 10351
+          "startMs": 10471,
+          "endMs": 10521
         },
         {
           "text": "purchase",
-          "startMs": 10401,
-          "endMs": 10901
+          "startMs": 10571,
+          "endMs": 11071
         },
         {
           "text": "never",
-          "startMs": 10976,
-          "endMs": 11201
+          "startMs": 11146,
+          "endMs": 11371
         },
         {
           "text": "appeared,",
-          "startMs": 11301,
-          "endMs": 12051
+          "startMs": 11471,
+          "endMs": 12246
         },
         {
           "text": "and",
-          "startMs": 12101,
-          "endMs": 12176
+          "startMs": 12296,
+          "endMs": 12371
         },
         {
           "text": "Google",
-          "startMs": 12251,
-          "endMs": 12551
+          "startMs": 12446,
+          "endMs": 12746
         },
         {
           "text": "Play",
-          "startMs": 12601,
-          "endMs": 12876
+          "startMs": 12796,
+          "endMs": 13071
         },
         {
           "text": "marked",
-          "startMs": 12926,
-          "endMs": 13176
+          "startMs": 13121,
+          "endMs": 13371
         },
         {
           "text": "it",
-          "startMs": 13201,
-          "endMs": 13276
+          "startMs": 13396,
+          "endMs": 13471
         },
         {
           "text": "cancelled.",
-          "startMs": 13326,
-          "endMs": 14401
+          "startMs": 13521,
+          "endMs": 14646
         },
         {
           "text": "The",
-          "startMs": 14476,
-          "endMs": 14551
+          "startMs": 14721,
+          "endMs": 14796
         },
         {
           "text": "report",
-          "startMs": 14601,
-          "endMs": 15001
+          "startMs": 14846,
+          "endMs": 15246
         },
         {
           "text": "describes",
-          "startMs": 15051,
-          "endMs": 15576
+          "startMs": 15296,
+          "endMs": 15821
         },
         {
           "text": "the",
-          "startMs": 15601,
-          "endMs": 15626
+          "startMs": 15846,
+          "endMs": 15871
         },
         {
           "text": "experience,",
-          "startMs": 15726,
-          "endMs": 16801
+          "startMs": 15971,
+          "endMs": 17046
         },
         {
           "text": "not",
-          "startMs": 16851,
-          "endMs": 16976
+          "startMs": 17096,
+          "endMs": 17246
         },
         {
           "text": "a",
-          "startMs": 16976,
-          "endMs": 17076
+          "startMs": 17246,
+          "endMs": 17346
         },
         {
           "text": "verified",
-          "startMs": 17151,
-          "endMs": 17726
+          "startMs": 17421,
+          "endMs": 17996
         },
         {
           "text": "technical",
-          "startMs": 17801,
-          "endMs": 18251
+          "startMs": 18071,
+          "endMs": 18521
         },
         {
           "text": "root",
-          "startMs": 18301,
-          "endMs": 18476
+          "startMs": 18571,
+          "endMs": 18746
         },
         {
           "text": "cause.",
-          "startMs": 18526,
-          "endMs": 18987
+          "startMs": 18796,
+          "endMs": 19299
         }
       ]
     },
     "S03": {
       "text": "In April twenty twenty six, an Uber Eats customer reported extra funds they could not use. Commenters pointed to a pending authorization hold, rather than a proven second settled charge. The impact of uncertainty was still real.",
       "audio": "audio/generated/S03.wav",
-      "durationMs": 15171,
+      "durationMs": 15428,
       "alignmentConfidence": 0.93722,
+      "voiceDirection": "analytical caution",
+      "speed": 0.96,
+      "sentencePause": 0.34,
+      "clausePause": 0.15,
       "words": [
         {
           "text": "In",
-          "startMs": 73,
-          "endMs": 173
+          "startMs": 98,
+          "endMs": 198
         },
         {
           "text": "April",
-          "startMs": 223,
-          "endMs": 548
+          "startMs": 248,
+          "endMs": 573
         },
         {
           "text": "twenty",
-          "startMs": 598,
-          "endMs": 848
+          "startMs": 623,
+          "endMs": 873
         },
         {
           "text": "twenty",
-          "startMs": 898,
-          "endMs": 1148
+          "startMs": 923,
+          "endMs": 1173
         },
         {
           "text": "six,",
-          "startMs": 1223,
-          "endMs": 1873
+          "startMs": 1248,
+          "endMs": 1898
         },
         {
           "text": "an",
-          "startMs": 2013,
-          "endMs": 2113
+          "startMs": 1948,
+          "endMs": 2048
         },
         {
           "text": "Uber",
-          "startMs": 2188,
-          "endMs": 2413
+          "startMs": 2123,
+          "endMs": 2348
         },
         {
           "text": "Eats",
-          "startMs": 2513,
-          "endMs": 2763
+          "startMs": 2448,
+          "endMs": 2698
         },
         {
           "text": "customer",
-          "startMs": 2813,
-          "endMs": 3363
+          "startMs": 2748,
+          "endMs": 3298
         },
         {
           "text": "reported",
-          "startMs": 3438,
-          "endMs": 3913
+          "startMs": 3373,
+          "endMs": 3873
         },
         {
           "text": "extra",
-          "startMs": 3988,
-          "endMs": 4338
+          "startMs": 3948,
+          "endMs": 4298
         },
         {
           "text": "funds",
-          "startMs": 4413,
-          "endMs": 4788
+          "startMs": 4373,
+          "endMs": 4748
         },
         {
           "text": "they",
-          "startMs": 4838,
-          "endMs": 4913
+          "startMs": 4798,
+          "endMs": 4873
         },
         {
           "text": "could",
-          "startMs": 4963,
-          "endMs": 5063
+          "startMs": 4923,
+          "endMs": 5023
         },
         {
           "text": "not",
-          "startMs": 5113,
-          "endMs": 5288
+          "startMs": 5073,
+          "endMs": 5248
         },
         {
           "text": "use.",
-          "startMs": 5338,
-          "endMs": 6213
+          "startMs": 5298,
+          "endMs": 6223
         },
         {
           "text": "Commenters",
-          "startMs": 6288,
-          "endMs": 6888
+          "startMs": 6298,
+          "endMs": 6923
         },
         {
           "text": "pointed",
-          "startMs": 6963,
-          "endMs": 7313
+          "startMs": 6998,
+          "endMs": 7348
         },
         {
           "text": "to",
-          "startMs": 7363,
-          "endMs": 7413
+          "startMs": 7398,
+          "endMs": 7448
         },
         {
           "text": "a",
-          "startMs": 7413,
-          "endMs": 7563
+          "startMs": 7448,
+          "endMs": 7598
         },
         {
           "text": "pending",
-          "startMs": 7638,
-          "endMs": 7988
+          "startMs": 7673,
+          "endMs": 8073
         },
         {
           "text": "authorization",
-          "startMs": 8038,
-          "endMs": 8713
+          "startMs": 8123,
+          "endMs": 8798
         },
         {
           "text": "hold,",
-          "startMs": 8763,
-          "endMs": 9413
+          "startMs": 8848,
+          "endMs": 9498
         },
         {
           "text": "rather",
-          "startMs": 9488,
-          "endMs": 9788
+          "startMs": 9573,
+          "endMs": 9873
         },
         {
           "text": "than",
-          "startMs": 9838,
-          "endMs": 9963
+          "startMs": 9923,
+          "endMs": 10048
         },
         {
           "text": "a",
-          "startMs": 9963,
-          "endMs": 10013
+          "startMs": 10048,
+          "endMs": 10098
         },
         {
           "text": "proven",
-          "startMs": 10088,
-          "endMs": 10438
+          "startMs": 10173,
+          "endMs": 10523
         },
         {
           "text": "second",
-          "startMs": 10538,
-          "endMs": 10913
+          "startMs": 10623,
+          "endMs": 10998
         },
         {
           "text": "settled",
-          "startMs": 10988,
-          "endMs": 11288
+          "startMs": 11073,
+          "endMs": 11398
         },
         {
           "text": "charge.",
-          "startMs": 11338,
-          "endMs": 12338
+          "startMs": 11448,
+          "endMs": 12448
         },
         {
           "text": "The",
-          "startMs": 12413,
-          "endMs": 12463
+          "startMs": 12523,
+          "endMs": 12573
         },
         {
           "text": "impact",
-          "startMs": 12588,
-          "endMs": 13063
+          "startMs": 12698,
+          "endMs": 13173
         },
         {
           "text": "of",
-          "startMs": 13088,
-          "endMs": 13138
+          "startMs": 13223,
+          "endMs": 13273
         },
         {
           "text": "uncertainty",
-          "startMs": 13213,
-          "endMs": 14013
+          "startMs": 13348,
+          "endMs": 14173
         },
         {
           "text": "was",
-          "startMs": 14088,
-          "endMs": 14188
+          "startMs": 14248,
+          "endMs": 14373
         },
         {
           "text": "still",
-          "startMs": 14238,
-          "endMs": 14488
+          "startMs": 14423,
+          "endMs": 14673
         },
         {
           "text": "real.",
-          "startMs": 14563,
-          "endMs": 14981
+          "startMs": 14748,
+          "endMs": 15168
         }
       ]
     },
     "S04": {
       "text": "Developers face a related engineering challenge. A September twenty twenty six Medusa issue described a refund retry that could generate a different idempotency key after a provider error. If the first refund succeeded but its response was lost, another refund could become possible.",
       "audio": "audio/generated/S04.wav",
-      "durationMs": 19059,
+      "durationMs": 18665,
       "alignmentConfidence": 1.0,
+      "voiceDirection": "technical tension",
+      "speed": 1.04,
+      "sentencePause": 0.26,
+      "clausePause": 0.1,
       "words": [
         {
           "text": "Developers",
-          "startMs": 98,
-          "endMs": 748
+          "startMs": 73,
+          "endMs": 673
         },
         {
           "text": "face",
-          "startMs": 823,
-          "endMs": 1148
+          "startMs": 748,
+          "endMs": 1073
         },
         {
           "text": "a",
-          "startMs": 1223,
-          "endMs": 1273
+          "startMs": 1148,
+          "endMs": 1198
         },
         {
           "text": "related",
-          "startMs": 1323,
-          "endMs": 1798
+          "startMs": 1248,
+          "endMs": 1698
         },
         {
           "text": "engineering",
-          "startMs": 1848,
-          "endMs": 2398
+          "startMs": 1748,
+          "endMs": 2298
         },
         {
           "text": "challenge.",
-          "startMs": 2448,
-          "endMs": 3498
+          "startMs": 2348,
+          "endMs": 3373
         },
         {
           "text": "A",
-          "startMs": 3573,
-          "endMs": 3623
+          "startMs": 3448,
+          "endMs": 3498
         },
         {
           "text": "September",
-          "startMs": 3698,
-          "endMs": 4148
+          "startMs": 3573,
+          "endMs": 4023
         },
         {
           "text": "twenty",
-          "startMs": 4223,
-          "endMs": 4473
+          "startMs": 4098,
+          "endMs": 4348
         },
         {
           "text": "twenty",
-          "startMs": 4523,
-          "endMs": 4773
+          "startMs": 4398,
+          "endMs": 4648
         },
         {
           "text": "six",
-          "startMs": 4848,
-          "endMs": 5323
+          "startMs": 4723,
+          "endMs": 5198
         },
         {
           "text": "Medusa",
-          "startMs": 5423,
-          "endMs": 5898
+          "startMs": 5298,
+          "endMs": 5723
         },
         {
           "text": "issue",
-          "startMs": 5948,
-          "endMs": 6273
+          "startMs": 5773,
+          "endMs": 6098
         },
         {
           "text": "described",
-          "startMs": 6323,
-          "endMs": 6823
+          "startMs": 6148,
+          "endMs": 6648
         },
         {
           "text": "a",
-          "startMs": 6873,
-          "endMs": 6923
+          "startMs": 6698,
+          "endMs": 6748
         },
         {
           "text": "refund",
-          "startMs": 6998,
-          "endMs": 7398
+          "startMs": 6823,
+          "endMs": 7223
         },
         {
           "text": "retry",
-          "startMs": 7448,
-          "endMs": 8198
+          "startMs": 7273,
+          "endMs": 7998
         },
         {
           "text": "that",
-          "startMs": 8298,
-          "endMs": 8398
+          "startMs": 8098,
+          "endMs": 8198
         },
         {
           "text": "could",
-          "startMs": 8448,
-          "endMs": 8573
+          "startMs": 8248,
+          "endMs": 8373
         },
         {
           "text": "generate",
-          "startMs": 8648,
-          "endMs": 9148
+          "startMs": 8448,
+          "endMs": 8923
         },
         {
           "text": "a",
-          "startMs": 9198,
-          "endMs": 9248
+          "startMs": 8973,
+          "endMs": 9023
         },
         {
           "text": "different",
-          "startMs": 9323,
-          "endMs": 9598
+          "startMs": 9098,
+          "endMs": 9373
         },
         {
           "text": "idempotency",
-          "startMs": 9648,
-          "endMs": 10373
+          "startMs": 9423,
+          "endMs": 10148
         },
         {
           "text": "key",
-          "startMs": 10448,
-          "endMs": 10948
+          "startMs": 10223,
+          "endMs": 10698
         },
         {
           "text": "after",
-          "startMs": 11048,
-          "endMs": 11348
+          "startMs": 10798,
+          "endMs": 11098
         },
         {
           "text": "a",
-          "startMs": 11373,
-          "endMs": 11398
+          "startMs": 11123,
+          "endMs": 11148
         },
         {
           "text": "provider",
-          "startMs": 11448,
-          "endMs": 11948
+          "startMs": 11198,
+          "endMs": 11698
         },
         {
           "text": "error.",
-          "startMs": 11998,
-          "endMs": 13023
+          "startMs": 11748,
+          "endMs": 12723
         },
         {
           "text": "If",
-          "startMs": 13098,
-          "endMs": 13173
+          "startMs": 12798,
+          "endMs": 12873
         },
         {
           "text": "the",
-          "startMs": 13223,
-          "endMs": 13298
+          "startMs": 12898,
+          "endMs": 12973
         },
         {
           "text": "first",
-          "startMs": 13373,
-          "endMs": 13673
+          "startMs": 13048,
+          "endMs": 13348
         },
         {
           "text": "refund",
-          "startMs": 13723,
-          "endMs": 14173
+          "startMs": 13398,
+          "endMs": 13848
         },
         {
           "text": "succeeded",
-          "startMs": 14223,
-          "endMs": 15023
+          "startMs": 13898,
+          "endMs": 14698
         },
         {
           "text": "but",
-          "startMs": 15098,
-          "endMs": 15198
+          "startMs": 14773,
+          "endMs": 14873
         },
         {
           "text": "its",
-          "startMs": 15223,
-          "endMs": 15298
+          "startMs": 14898,
+          "endMs": 14973
         },
         {
           "text": "response",
-          "startMs": 15348,
-          "endMs": 15873
+          "startMs": 15023,
+          "endMs": 15548
         },
         {
           "text": "was",
-          "startMs": 15923,
-          "endMs": 16048
+          "startMs": 15598,
+          "endMs": 15723
         },
         {
           "text": "lost,",
-          "startMs": 16098,
-          "endMs": 16823
+          "startMs": 15773,
+          "endMs": 16498
         },
         {
           "text": "another",
-          "startMs": 16898,
-          "endMs": 17223
+          "startMs": 16573,
+          "endMs": 16898
         },
         {
           "text": "refund",
-          "startMs": 17273,
-          "endMs": 17723
+          "startMs": 16948,
+          "endMs": 17373
         },
         {
           "text": "could",
-          "startMs": 17773,
-          "endMs": 17848
+          "startMs": 17423,
+          "endMs": 17498
         },
         {
           "text": "become",
-          "startMs": 17873,
-          "endMs": 18198
+          "startMs": 17523,
+          "endMs": 17848
         },
         {
           "text": "possible.",
-          "startMs": 18248,
-          "endMs": 18859
+          "startMs": 17898,
+          "endMs": 18475
         }
       ]
     },
     "S05": {
       "text": "Payment systems need explicit invariants. Stripe's documentation explains idempotent requests: retries should not silently duplicate an operation. The question is not only whether code runs, but whether the business rule still holds.",
       "audio": "audio/generated/S05.wav",
-      "durationMs": 15661,
+      "durationMs": 15575,
       "alignmentConfidence": 1.0,
+      "voiceDirection": "clear authority",
+      "speed": 1.02,
+      "sentencePause": 0.29,
+      "clausePause": 0.12,
       "words": [
         {
           "text": "Payment",
@@ -816,288 +836,296 @@
         {
           "text": "invariants.",
           "startMs": 1969,
-          "endMs": 3144
+          "endMs": 3119
         },
         {
           "text": "Stripe's",
-          "startMs": 3244,
-          "endMs": 3619
+          "startMs": 3219,
+          "endMs": 3594
         },
         {
           "text": "documentation",
-          "startMs": 3669,
-          "endMs": 4569
+          "startMs": 3644,
+          "endMs": 4544
         },
         {
           "text": "explains",
-          "startMs": 4644,
-          "endMs": 5269
+          "startMs": 4619,
+          "endMs": 5244
         },
         {
           "text": "idempotent",
-          "startMs": 5369,
-          "endMs": 5969
+          "startMs": 5344,
+          "endMs": 5944
         },
         {
           "text": "requests:",
-          "startMs": 6019,
-          "endMs": 7119
+          "startMs": 5994,
+          "endMs": 7069
         },
         {
           "text": "retries",
-          "startMs": 7194,
-          "endMs": 7744
+          "startMs": 7144,
+          "endMs": 7694
         },
         {
           "text": "should",
-          "startMs": 7794,
-          "endMs": 7919
+          "startMs": 7744,
+          "endMs": 7869
         },
         {
           "text": "not",
-          "startMs": 7969,
-          "endMs": 8219
+          "startMs": 7919,
+          "endMs": 8169
         },
         {
           "text": "silently",
-          "startMs": 8294,
-          "endMs": 8794
+          "startMs": 8244,
+          "endMs": 8744
         },
         {
           "text": "duplicate",
-          "startMs": 8869,
-          "endMs": 9394
+          "startMs": 8819,
+          "endMs": 9344
         },
         {
           "text": "an",
-          "startMs": 9419,
-          "endMs": 9469
+          "startMs": 9369,
+          "endMs": 9419
         },
         {
           "text": "operation.",
-          "startMs": 9519,
-          "endMs": 10644
+          "startMs": 9469,
+          "endMs": 10544
         },
         {
           "text": "The",
-          "startMs": 10694,
-          "endMs": 10744
+          "startMs": 10594,
+          "endMs": 10644
         },
         {
           "text": "question",
-          "startMs": 10794,
-          "endMs": 11269
+          "startMs": 10694,
+          "endMs": 11169
         },
         {
           "text": "is",
-          "startMs": 11344,
-          "endMs": 11444
+          "startMs": 11244,
+          "endMs": 11344
         },
         {
           "text": "not",
-          "startMs": 11519,
-          "endMs": 11694
+          "startMs": 11419,
+          "endMs": 11594
         },
         {
           "text": "only",
-          "startMs": 11719,
-          "endMs": 11944
+          "startMs": 11619,
+          "endMs": 11844
         },
         {
           "text": "whether",
-          "startMs": 11994,
-          "endMs": 12219
+          "startMs": 11894,
+          "endMs": 12119
         },
         {
           "text": "code",
-          "startMs": 12294,
-          "endMs": 12569
+          "startMs": 12194,
+          "endMs": 12469
         },
         {
           "text": "runs,",
-          "startMs": 12619,
-          "endMs": 13294
+          "startMs": 12519,
+          "endMs": 13194
         },
         {
           "text": "but",
-          "startMs": 13424,
-          "endMs": 13524
+          "startMs": 13324,
+          "endMs": 13424
         },
         {
           "text": "whether",
-          "startMs": 13574,
-          "endMs": 13799
+          "startMs": 13474,
+          "endMs": 13699
         },
         {
           "text": "the",
-          "startMs": 13849,
-          "endMs": 13899
+          "startMs": 13749,
+          "endMs": 13799
         },
         {
           "text": "business",
-          "startMs": 13949,
-          "endMs": 14299
+          "startMs": 13849,
+          "endMs": 14199
         },
         {
           "text": "rule",
-          "startMs": 14349,
-          "endMs": 14599
+          "startMs": 14249,
+          "endMs": 14499
         },
         {
           "text": "still",
-          "startMs": 14674,
-          "endMs": 14899
+          "startMs": 14574,
+          "endMs": 14799
         },
         {
           "text": "holds.",
-          "startMs": 14949,
-          "endMs": 15461
+          "startMs": 14849,
+          "endMs": 15355
         }
       ]
     },
     "S06": {
       "text": "Meet FlowGuard A I. Built to help developers reason about behavioral risk, turn a business requirement into testable expectations, and distinguish suspected bugs from observed proof.",
       "audio": "audio/generated/S06.wav",
-      "durationMs": 11891,
+      "durationMs": 12292,
       "alignmentConfidence": 0.950276,
+      "voiceDirection": "confident product reveal",
+      "speed": 0.96,
+      "sentencePause": 0.34,
+      "clausePause": 0.14,
       "words": [
         {
           "text": "Meet",
-          "startMs": 119,
-          "endMs": 344
+          "startMs": 123,
+          "endMs": 373
         },
         {
           "text": "FlowGuard",
-          "startMs": 419,
-          "endMs": 969
+          "startMs": 448,
+          "endMs": 998
         },
         {
           "text": "A",
-          "startMs": 1019,
-          "endMs": 1044
+          "startMs": 1048,
+          "endMs": 1073
         },
         {
           "text": "I.",
-          "startMs": 1119,
-          "endMs": 1919
+          "startMs": 1148,
+          "endMs": 1973
         },
         {
           "text": "Built",
-          "startMs": 2019,
-          "endMs": 2244
+          "startMs": 2073,
+          "endMs": 2298
         },
         {
           "text": "to",
-          "startMs": 2294,
-          "endMs": 2319
+          "startMs": 2348,
+          "endMs": 2373
         },
         {
           "text": "help",
-          "startMs": 2419,
-          "endMs": 2644
+          "startMs": 2473,
+          "endMs": 2698
         },
         {
           "text": "developers",
-          "startMs": 2694,
-          "endMs": 3244
+          "startMs": 2748,
+          "endMs": 3298
         },
         {
           "text": "reason",
-          "startMs": 3319,
-          "endMs": 3669
+          "startMs": 3373,
+          "endMs": 3773
         },
         {
           "text": "about",
-          "startMs": 3719,
-          "endMs": 3919
+          "startMs": 3823,
+          "endMs": 4023
         },
         {
           "text": "behavioral",
-          "startMs": 3969,
-          "endMs": 4494
+          "startMs": 4073,
+          "endMs": 4648
         },
         {
           "text": "risk,",
-          "startMs": 4544,
-          "endMs": 5219
+          "startMs": 4698,
+          "endMs": 5398
         },
         {
           "text": "turn",
-          "startMs": 5294,
-          "endMs": 5519
+          "startMs": 5473,
+          "endMs": 5698
         },
         {
           "text": "a",
-          "startMs": 5544,
-          "endMs": 5569
+          "startMs": 5748,
+          "endMs": 5798
         },
         {
           "text": "business",
-          "startMs": 5644,
-          "endMs": 5994
+          "startMs": 5873,
+          "endMs": 6223
         },
         {
           "text": "requirement",
-          "startMs": 6044,
-          "endMs": 6594
+          "startMs": 6273,
+          "endMs": 6823
         },
         {
           "text": "into",
-          "startMs": 6619,
-          "endMs": 6819
+          "startMs": 6848,
+          "endMs": 7048
         },
         {
           "text": "testable",
-          "startMs": 6894,
-          "endMs": 7369
+          "startMs": 7123,
+          "endMs": 7598
         },
         {
           "text": "expectations,",
-          "startMs": 7419,
-          "endMs": 8669
+          "startMs": 7648,
+          "endMs": 8923
         },
         {
           "text": "and",
-          "startMs": 8719,
-          "endMs": 8794
+          "startMs": 8998,
+          "endMs": 9073
         },
         {
           "text": "distinguish",
-          "startMs": 8819,
-          "endMs": 9419
+          "startMs": 9098,
+          "endMs": 9698
         },
         {
           "text": "suspected",
-          "startMs": 9469,
-          "endMs": 10019
+          "startMs": 9748,
+          "endMs": 10298
         },
         {
           "text": "bugs",
-          "startMs": 10069,
-          "endMs": 10569
+          "startMs": 10348,
+          "endMs": 10873
         },
         {
           "text": "from",
-          "startMs": 10619,
-          "endMs": 10769
+          "startMs": 10948,
+          "endMs": 11098
         },
         {
           "text": "observed",
-          "startMs": 10819,
-          "endMs": 11244
+          "startMs": 11148,
+          "endMs": 11573
         },
         {
           "text": "proof.",
-          "startMs": 11294,
-          "endMs": 11691
+          "startMs": 11623,
+          "endMs": 12032
         }
       ]
     },
     "S07": {
       "text": "Start with a code snippet or a public GitHub pull request, then describe the rule that matters. FlowGuard's Requirement Analyst extracts invariants. Its Risk Hunter flags possible failure paths. Its Verification Planner proposes assertions to investigate. Findings from external code remain labelled potential. Reading a pull request is not the same as executing it.",
       "audio": "audio/generated/S07.wav",
-      "durationMs": 23786,
+      "durationMs": 23563,
       "alignmentConfidence": 0.963173,
+      "voiceDirection": "methodical momentum",
+      "speed": 1.02,
+      "sentencePause": 0.26,
+      "clausePause": 0.1,
       "words": [
         {
           "text": "Start",
@@ -1122,608 +1150,616 @@
         {
           "text": "snippet",
           "startMs": 869,
-          "endMs": 1444
+          "endMs": 1419
         },
         {
           "text": "or",
-          "startMs": 1544,
-          "endMs": 1669
+          "startMs": 1519,
+          "endMs": 1644
         },
         {
           "text": "a",
-          "startMs": 1719,
-          "endMs": 1744
+          "startMs": 1694,
+          "endMs": 1719
         },
         {
           "text": "public",
-          "startMs": 1794,
-          "endMs": 2144
+          "startMs": 1769,
+          "endMs": 2119
         },
         {
           "text": "GitHub",
-          "startMs": 2194,
-          "endMs": 2544
+          "startMs": 2169,
+          "endMs": 2519
         },
         {
           "text": "pull",
-          "startMs": 2594,
-          "endMs": 2794
+          "startMs": 2569,
+          "endMs": 2769
         },
         {
           "text": "request,",
-          "startMs": 2844,
-          "endMs": 3669
+          "startMs": 2819,
+          "endMs": 3644
         },
         {
           "text": "then",
-          "startMs": 3719,
-          "endMs": 3869
+          "startMs": 3694,
+          "endMs": 3844
         },
         {
           "text": "describe",
-          "startMs": 3919,
-          "endMs": 4344
+          "startMs": 3894,
+          "endMs": 4319
         },
         {
           "text": "the",
-          "startMs": 4369,
-          "endMs": 4419
+          "startMs": 4344,
+          "endMs": 4394
         },
         {
           "text": "rule",
-          "startMs": 4494,
-          "endMs": 4744
+          "startMs": 4469,
+          "endMs": 4719
         },
         {
           "text": "that",
-          "startMs": 4794,
-          "endMs": 4919
+          "startMs": 4769,
+          "endMs": 4894
         },
         {
           "text": "matters.",
-          "startMs": 4969,
-          "endMs": 5919
+          "startMs": 4944,
+          "endMs": 5844
         },
         {
           "text": "FlowGuard's",
-          "startMs": 6019,
-          "endMs": 6569
+          "startMs": 5944,
+          "endMs": 6494
         },
         {
           "text": "Requirement",
-          "startMs": 6619,
-          "endMs": 7194
+          "startMs": 6544,
+          "endMs": 7119
         },
         {
           "text": "Analyst",
-          "startMs": 7269,
-          "endMs": 7794
+          "startMs": 7194,
+          "endMs": 7694
         },
         {
           "text": "extracts",
-          "startMs": 7869,
-          "endMs": 8394
+          "startMs": 7769,
+          "endMs": 8269
         },
         {
           "text": "invariants.",
-          "startMs": 8444,
-          "endMs": 9544
+          "startMs": 8319,
+          "endMs": 9394
         },
         {
           "text": "Its",
-          "startMs": 9619,
-          "endMs": 9769
+          "startMs": 9469,
+          "endMs": 9619
         },
         {
           "text": "Risk",
-          "startMs": 9819,
-          "endMs": 10044
+          "startMs": 9669,
+          "endMs": 9894
         },
         {
           "text": "Hunter",
-          "startMs": 10094,
-          "endMs": 10494
+          "startMs": 9944,
+          "endMs": 10344
         },
         {
           "text": "flags",
-          "startMs": 10594,
-          "endMs": 10969
+          "startMs": 10444,
+          "endMs": 10819
         },
         {
           "text": "possible",
-          "startMs": 11044,
-          "endMs": 11519
+          "startMs": 10894,
+          "endMs": 11369
         },
         {
           "text": "failure",
-          "startMs": 11594,
-          "endMs": 11919
+          "startMs": 11444,
+          "endMs": 11769
         },
         {
           "text": "paths.",
-          "startMs": 11969,
-          "endMs": 12719
+          "startMs": 11819,
+          "endMs": 12569
         },
         {
           "text": "Its",
-          "startMs": 12794,
-          "endMs": 12919
+          "startMs": 12644,
+          "endMs": 12769
         },
         {
           "text": "Verification",
-          "startMs": 12969,
-          "endMs": 13669
+          "startMs": 12819,
+          "endMs": 13519
         },
         {
           "text": "Planner",
-          "startMs": 13719,
-          "endMs": 14069
+          "startMs": 13569,
+          "endMs": 13919
         },
         {
           "text": "proposes",
-          "startMs": 14119,
-          "endMs": 14669
+          "startMs": 13969,
+          "endMs": 14519
         },
         {
           "text": "assertions",
-          "startMs": 14719,
-          "endMs": 15319
+          "startMs": 14569,
+          "endMs": 15169
         },
         {
           "text": "to",
-          "startMs": 15369,
-          "endMs": 15419
+          "startMs": 15219,
+          "endMs": 15269
         },
         {
           "text": "investigate.",
-          "startMs": 15519,
-          "endMs": 16669
+          "startMs": 15369,
+          "endMs": 16519
         },
         {
           "text": "Findings",
-          "startMs": 16769,
-          "endMs": 17294
+          "startMs": 16619,
+          "endMs": 17119
         },
         {
           "text": "from",
-          "startMs": 17344,
-          "endMs": 17444
+          "startMs": 17169,
+          "endMs": 17269
         },
         {
           "text": "external",
-          "startMs": 17494,
-          "endMs": 17969
+          "startMs": 17319,
+          "endMs": 17794
         },
         {
           "text": "code",
-          "startMs": 18019,
-          "endMs": 18419
+          "startMs": 17844,
+          "endMs": 18244
         },
         {
           "text": "remain",
-          "startMs": 18494,
-          "endMs": 18844
+          "startMs": 18319,
+          "endMs": 18644
         },
         {
           "text": "labelled",
-          "startMs": 18919,
-          "endMs": 19294
+          "startMs": 18719,
+          "endMs": 19094
         },
         {
           "text": "potential.",
-          "startMs": 19344,
-          "endMs": 20419
+          "startMs": 19144,
+          "endMs": 20219
         },
         {
           "text": "Reading",
-          "startMs": 20519,
-          "endMs": 20844
+          "startMs": 20319,
+          "endMs": 20644
         },
         {
           "text": "a",
-          "startMs": 20894,
-          "endMs": 20944
+          "startMs": 20694,
+          "endMs": 20744
         },
         {
           "text": "pull",
-          "startMs": 21019,
-          "endMs": 21219
+          "startMs": 20819,
+          "endMs": 21019
         },
         {
           "text": "request",
-          "startMs": 21269,
-          "endMs": 21794
+          "startMs": 21069,
+          "endMs": 21594
         },
         {
           "text": "is",
-          "startMs": 21869,
-          "endMs": 21969
+          "startMs": 21669,
+          "endMs": 21769
         },
         {
           "text": "not",
-          "startMs": 22044,
-          "endMs": 22219
+          "startMs": 21844,
+          "endMs": 22019
         },
         {
           "text": "the",
-          "startMs": 22244,
-          "endMs": 22294
+          "startMs": 22044,
+          "endMs": 22094
         },
         {
           "text": "same",
-          "startMs": 22369,
-          "endMs": 22644
+          "startMs": 22169,
+          "endMs": 22444
         },
         {
           "text": "as",
-          "startMs": 22694,
-          "endMs": 22794
+          "startMs": 22494,
+          "endMs": 22594
         },
         {
           "text": "executing",
-          "startMs": 22869,
-          "endMs": 23419
+          "startMs": 22669,
+          "endMs": 23219
         },
         {
           "text": "it.",
-          "startMs": 23469,
-          "endMs": 23616
+          "startMs": 23269,
+          "endMs": 23403
         }
       ]
     },
     "S08": {
       "text": "Now watch our controlled Verification Lab. With two concurrent refund attempts and the same logical key, the intentionally vulnerable synthetic fixture commits two side effects. The invariant allows only one, so the observed result is verified fail. Switch to the corrected fixture under the same controlled rule: just one side effect. Verified pass. These are reproducible first-party simulations, not claims about a real bank or an external repository.",
       "audio": "audio/generated/S08.wav",
-      "durationMs": 27565,
+      "durationMs": 26986,
       "alignmentConfidence": 1.0,
+      "voiceDirection": "energized fail/pass demonstration",
+      "speed": 1.04,
+      "sentencePause": 0.24,
+      "clausePause": 0.09,
       "words": [
         {
           "text": "Now",
-          "startMs": 80,
-          "endMs": 280
+          "startMs": 76,
+          "endMs": 276
         },
         {
           "text": "watch",
-          "startMs": 330,
-          "endMs": 580
+          "startMs": 326,
+          "endMs": 551
         },
         {
           "text": "our",
-          "startMs": 605,
-          "endMs": 705
+          "startMs": 576,
+          "endMs": 676
         },
         {
           "text": "controlled",
-          "startMs": 755,
-          "endMs": 1180
+          "startMs": 726,
+          "endMs": 1151
         },
         {
           "text": "Verification",
-          "startMs": 1230,
-          "endMs": 1905
+          "startMs": 1201,
+          "endMs": 1876
         },
         {
           "text": "Lab.",
-          "startMs": 1955,
-          "endMs": 2580
+          "startMs": 1926,
+          "endMs": 2551
         },
         {
           "text": "With",
-          "startMs": 2630,
-          "endMs": 2755
+          "startMs": 2601,
+          "endMs": 2726
         },
         {
           "text": "two",
-          "startMs": 2830,
-          "endMs": 3030
+          "startMs": 2801,
+          "endMs": 3001
         },
         {
           "text": "concurrent",
-          "startMs": 3080,
-          "endMs": 3505
+          "startMs": 3051,
+          "endMs": 3451
         },
         {
           "text": "refund",
-          "startMs": 3530,
-          "endMs": 3880
+          "startMs": 3476,
+          "endMs": 3826
         },
         {
           "text": "attempts",
-          "startMs": 3905,
-          "endMs": 4380
+          "startMs": 3851,
+          "endMs": 4301
         },
         {
           "text": "and",
-          "startMs": 4430,
-          "endMs": 4505
+          "startMs": 4351,
+          "endMs": 4426
         },
         {
           "text": "the",
-          "startMs": 4530,
-          "endMs": 4580
+          "startMs": 4451,
+          "endMs": 4501
         },
         {
           "text": "same",
-          "startMs": 4655,
-          "endMs": 4905
+          "startMs": 4576,
+          "endMs": 4826
         },
         {
           "text": "logical",
-          "startMs": 4955,
-          "endMs": 5405
+          "startMs": 4876,
+          "endMs": 5326
         },
         {
           "text": "key,",
-          "startMs": 5455,
-          "endMs": 6005
+          "startMs": 5376,
+          "endMs": 5926
         },
         {
           "text": "the",
-          "startMs": 6125,
-          "endMs": 6225
+          "startMs": 5976,
+          "endMs": 6076
         },
         {
           "text": "intentionally",
-          "startMs": 6275,
-          "endMs": 6900
+          "startMs": 6126,
+          "endMs": 6701
         },
         {
           "text": "vulnerable",
-          "startMs": 6975,
-          "endMs": 7500
+          "startMs": 6776,
+          "endMs": 7276
         },
         {
           "text": "synthetic",
-          "startMs": 7550,
-          "endMs": 8000
+          "startMs": 7326,
+          "endMs": 7776
         },
         {
           "text": "fixture",
-          "startMs": 8050,
-          "endMs": 8450
+          "startMs": 7826,
+          "endMs": 8226
         },
         {
           "text": "commits",
-          "startMs": 8525,
-          "endMs": 8800
+          "startMs": 8301,
+          "endMs": 8576
         },
         {
           "text": "two",
-          "startMs": 8875,
-          "endMs": 9075
+          "startMs": 8651,
+          "endMs": 8851
         },
         {
           "text": "side",
-          "startMs": 9150,
-          "endMs": 9400
+          "startMs": 8926,
+          "endMs": 9151
         },
         {
           "text": "effects.",
-          "startMs": 9425,
-          "endMs": 10350
+          "startMs": 9176,
+          "endMs": 10101
         },
         {
           "text": "The",
-          "startMs": 10400,
-          "endMs": 10475
+          "startMs": 10151,
+          "endMs": 10226
         },
         {
           "text": "invariant",
-          "startMs": 10525,
-          "endMs": 10975
+          "startMs": 10276,
+          "endMs": 10726
         },
         {
           "text": "allows",
-          "startMs": 11025,
-          "endMs": 11350
+          "startMs": 10776,
+          "endMs": 11101
         },
         {
           "text": "only",
-          "startMs": 11400,
-          "endMs": 11700
+          "startMs": 11151,
+          "endMs": 11426
         },
         {
           "text": "one,",
-          "startMs": 11750,
-          "endMs": 12150
+          "startMs": 11476,
+          "endMs": 11876
         },
         {
           "text": "so",
-          "startMs": 12200,
-          "endMs": 12300
+          "startMs": 11926,
+          "endMs": 12026
         },
         {
           "text": "the",
-          "startMs": 12325,
-          "endMs": 12400
+          "startMs": 12051,
+          "endMs": 12126
         },
         {
           "text": "observed",
-          "startMs": 12450,
-          "endMs": 12850
+          "startMs": 12176,
+          "endMs": 12576
         },
         {
           "text": "result",
-          "startMs": 12875,
-          "endMs": 13200
+          "startMs": 12601,
+          "endMs": 12926
         },
         {
           "text": "is",
-          "startMs": 13275,
-          "endMs": 13375
+          "startMs": 13001,
+          "endMs": 13101
         },
         {
           "text": "verified",
-          "startMs": 13450,
-          "endMs": 14000
+          "startMs": 13176,
+          "endMs": 13726
         },
         {
           "text": "fail.",
-          "startMs": 14050,
-          "endMs": 14800
+          "startMs": 13776,
+          "endMs": 14501
         },
         {
           "text": "Switch",
-          "startMs": 14900,
-          "endMs": 15150
+          "startMs": 14601,
+          "endMs": 14851
         },
         {
           "text": "to",
-          "startMs": 15200,
-          "endMs": 15250
+          "startMs": 14901,
+          "endMs": 14951
         },
         {
           "text": "the",
-          "startMs": 15275,
-          "endMs": 15325
+          "startMs": 14976,
+          "endMs": 15026
         },
         {
           "text": "corrected",
-          "startMs": 15375,
-          "endMs": 15800
+          "startMs": 15076,
+          "endMs": 15501
         },
         {
           "text": "fixture",
-          "startMs": 15850,
-          "endMs": 16250
+          "startMs": 15551,
+          "endMs": 15951
         },
         {
           "text": "under",
-          "startMs": 16275,
-          "endMs": 16400
+          "startMs": 15976,
+          "endMs": 16101
         },
         {
           "text": "the",
-          "startMs": 16425,
-          "endMs": 16500
+          "startMs": 16126,
+          "endMs": 16201
         },
         {
           "text": "same",
-          "startMs": 16575,
-          "endMs": 16825
+          "startMs": 16276,
+          "endMs": 16526
         },
         {
           "text": "controlled",
-          "startMs": 16875,
-          "endMs": 17325
+          "startMs": 16576,
+          "endMs": 17026
         },
         {
           "text": "rule:",
-          "startMs": 17375,
-          "endMs": 17925
+          "startMs": 17076,
+          "endMs": 17626
         },
         {
           "text": "just",
-          "startMs": 17975,
-          "endMs": 18200
+          "startMs": 17676,
+          "endMs": 17901
         },
         {
           "text": "one",
-          "startMs": 18275,
-          "endMs": 18525
+          "startMs": 17976,
+          "endMs": 18226
         },
         {
           "text": "side",
-          "startMs": 18600,
-          "endMs": 18850
+          "startMs": 18301,
+          "endMs": 18526
         },
         {
           "text": "effect.",
-          "startMs": 18875,
-          "endMs": 19625
+          "startMs": 18551,
+          "endMs": 19301
         },
         {
           "text": "Verified",
-          "startMs": 19725,
-          "endMs": 20225
+          "startMs": 19376,
+          "endMs": 19876
         },
         {
           "text": "pass.",
-          "startMs": 20275,
-          "endMs": 21100
+          "startMs": 19926,
+          "endMs": 20701
         },
         {
           "text": "These",
-          "startMs": 21175,
-          "endMs": 21425
+          "startMs": 20776,
+          "endMs": 21026
         },
         {
           "text": "are",
-          "startMs": 21475,
-          "endMs": 21575
+          "startMs": 21076,
+          "endMs": 21151
         },
         {
           "text": "reproducible",
-          "startMs": 21625,
-          "endMs": 22325
+          "startMs": 21201,
+          "endMs": 21876
         },
         {
           "text": "first-party",
-          "startMs": 22400,
-          "endMs": 22950
+          "startMs": 21951,
+          "endMs": 22501
         },
         {
           "text": "simulations,",
-          "startMs": 23000,
-          "endMs": 24000
+          "startMs": 22551,
+          "endMs": 23476
         },
         {
           "text": "not",
-          "startMs": 24075,
-          "endMs": 24250
+          "startMs": 23551,
+          "endMs": 23726
         },
         {
           "text": "claims",
-          "startMs": 24300,
-          "endMs": 24600
+          "startMs": 23776,
+          "endMs": 24076
         },
         {
           "text": "about",
-          "startMs": 24625,
-          "endMs": 24800
+          "startMs": 24101,
+          "endMs": 24276
         },
         {
           "text": "a",
-          "startMs": 24825,
-          "endMs": 24875
+          "startMs": 24301,
+          "endMs": 24351
         },
         {
           "text": "real",
-          "startMs": 24950,
-          "endMs": 25200
+          "startMs": 24426,
+          "endMs": 24676
         },
         {
           "text": "bank",
-          "startMs": 25250,
-          "endMs": 25625
+          "startMs": 24726,
+          "endMs": 25101
         },
         {
           "text": "or",
-          "startMs": 25700,
-          "endMs": 25825
+          "startMs": 25176,
+          "endMs": 25301
         },
         {
           "text": "an",
-          "startMs": 25875,
-          "endMs": 25925
+          "startMs": 25326,
+          "endMs": 25376
         },
         {
           "text": "external",
-          "startMs": 25975,
-          "endMs": 26475
+          "startMs": 25426,
+          "endMs": 25926
         },
         {
           "text": "repository.",
-          "startMs": 26525,
-          "endMs": 27355
+          "startMs": 25976,
+          "endMs": 26816
         }
       ]
     },
     "S09": {
       "text": "The engineering workflow was tested too. TestSprite automatically ran on our GitHub pull request. Earlier blocked checks prompted real improvements and repeat verification. On the final pull request head, the official TestSprite V three suite passed all ninety-seven tests, with zero failures and zero blocked cases, before merge.",
       "audio": "audio/generated/S09.wav",
-      "durationMs": 21491,
+      "durationMs": 21511,
       "alignmentConfidence": 0.984326,
+      "voiceDirection": "restrained triumph",
+      "speed": 1.0,
+      "sentencePause": 0.3,
+      "clausePause": 0.12,
       "words": [
         {
           "text": "The",
@@ -1970,414 +2006,426 @@
     "S10": {
       "text": "After merge, our independent C I also passed one hundred eighteen unit tests and seventy Chromium browser tests. Each result links back to a verifiable run.",
       "audio": "audio/generated/S10.wav",
-      "durationMs": 10622,
+      "durationMs": 10380,
       "alignmentConfidence": 1.0,
+      "voiceDirection": "crisp verification",
+      "speed": 1.03,
+      "sentencePause": 0.25,
+      "clausePause": 0.1,
       "words": [
         {
           "text": "After",
-          "startMs": 94,
-          "endMs": 369
+          "startMs": 90,
+          "endMs": 340
         },
         {
           "text": "merge,",
-          "startMs": 419,
-          "endMs": 994
+          "startMs": 390,
+          "endMs": 940
         },
         {
           "text": "our",
-          "startMs": 1044,
-          "endMs": 1169
+          "startMs": 990,
+          "endMs": 1115
         },
         {
           "text": "independent",
-          "startMs": 1219,
-          "endMs": 1769
+          "startMs": 1165,
+          "endMs": 1715
         },
         {
           "text": "C",
-          "startMs": 1869,
-          "endMs": 2144
+          "startMs": 1790,
+          "endMs": 2065
         },
         {
           "text": "I",
-          "startMs": 2219,
-          "endMs": 2319
+          "startMs": 2140,
+          "endMs": 2240
         },
         {
           "text": "also",
-          "startMs": 2369,
-          "endMs": 2669
+          "startMs": 2290,
+          "endMs": 2590
         },
         {
           "text": "passed",
-          "startMs": 2719,
-          "endMs": 3069
+          "startMs": 2640,
+          "endMs": 2990
         },
         {
           "text": "one",
-          "startMs": 3119,
-          "endMs": 3219
+          "startMs": 3040,
+          "endMs": 3140
         },
         {
           "text": "hundred",
-          "startMs": 3269,
-          "endMs": 3569
+          "startMs": 3190,
+          "endMs": 3490
         },
         {
           "text": "eighteen",
-          "startMs": 3619,
-          "endMs": 3944
+          "startMs": 3540,
+          "endMs": 3865
         },
         {
           "text": "unit",
-          "startMs": 3994,
-          "endMs": 4219
+          "startMs": 3915,
+          "endMs": 4140
         },
         {
           "text": "tests",
-          "startMs": 4269,
-          "endMs": 4969
+          "startMs": 4190,
+          "endMs": 4890
         },
         {
           "text": "and",
-          "startMs": 5069,
-          "endMs": 5194
+          "startMs": 4990,
+          "endMs": 5090
         },
         {
           "text": "seventy",
-          "startMs": 5294,
-          "endMs": 5619
+          "startMs": 5190,
+          "endMs": 5515
         },
         {
           "text": "Chromium",
-          "startMs": 5694,
-          "endMs": 6144
+          "startMs": 5590,
+          "endMs": 6040
         },
         {
           "text": "browser",
-          "startMs": 6194,
-          "endMs": 6544
+          "startMs": 6090,
+          "endMs": 6440
         },
         {
           "text": "tests.",
-          "startMs": 6594,
-          "endMs": 7594
+          "startMs": 6490,
+          "endMs": 7465
         },
         {
           "text": "Each",
-          "startMs": 7669,
-          "endMs": 7894
+          "startMs": 7540,
+          "endMs": 7765
         },
         {
           "text": "result",
-          "startMs": 7944,
-          "endMs": 8294
+          "startMs": 7815,
+          "endMs": 8165
         },
         {
           "text": "links",
-          "startMs": 8369,
-          "endMs": 8644
+          "startMs": 8240,
+          "endMs": 8515
         },
         {
           "text": "back",
-          "startMs": 8694,
-          "endMs": 8969
+          "startMs": 8565,
+          "endMs": 8840
         },
         {
           "text": "to",
-          "startMs": 9044,
-          "endMs": 9144
+          "startMs": 8890,
+          "endMs": 8990
         },
         {
           "text": "a",
-          "startMs": 9194,
-          "endMs": 9244
+          "startMs": 9040,
+          "endMs": 9090
         },
         {
           "text": "verifiable",
-          "startMs": 9294,
-          "endMs": 9994
+          "startMs": 9140,
+          "endMs": 9815
         },
         {
           "text": "run.",
-          "startMs": 10044,
-          "endMs": 10432
+          "startMs": 9865,
+          "endMs": 10240
         }
       ]
     },
     "S11": {
       "text": "FlowGuard A I. Evidence before verdicts. Don't just review code. Prove the behavior.",
       "audio": "audio/generated/S11.wav",
-      "durationMs": 5800,
+      "durationMs": 6393,
       "alignmentConfidence": 0.953488,
+      "voiceDirection": "warm closing",
+      "speed": 0.9,
+      "sentencePause": 0.38,
+      "clausePause": 0.16,
       "words": [
         {
           "text": "FlowGuard",
-          "startMs": 140,
-          "endMs": 640
+          "startMs": 169,
+          "endMs": 694
         },
         {
           "text": "A",
-          "startMs": 665,
-          "endMs": 715
+          "startMs": 719,
+          "endMs": 769
         },
         {
           "text": "I.",
-          "startMs": 790,
-          "endMs": 1340
+          "startMs": 844,
+          "endMs": 1469
         },
         {
           "text": "Evidence",
-          "startMs": 1435,
-          "endMs": 1835
+          "startMs": 1634,
+          "endMs": 2084
         },
         {
           "text": "before",
-          "startMs": 1885,
-          "endMs": 2135
+          "startMs": 2134,
+          "endMs": 2409
         },
         {
           "text": "verdicts.",
-          "startMs": 2185,
-          "endMs": 3085
+          "startMs": 2459,
+          "endMs": 3409
         },
         {
           "text": "Don't",
-          "startMs": 3160,
-          "endMs": 3335
+          "startMs": 3484,
+          "endMs": 3659
         },
         {
           "text": "just",
-          "startMs": 3360,
-          "endMs": 3535
+          "startMs": 3684,
+          "endMs": 3859
         },
         {
           "text": "review",
-          "startMs": 3585,
-          "endMs": 3860
+          "startMs": 3909,
+          "endMs": 4184
         },
         {
           "text": "code.",
-          "startMs": 3910,
-          "endMs": 4360
+          "startMs": 4234,
+          "endMs": 4709
         },
         {
           "text": "Prove",
-          "startMs": 4585,
-          "endMs": 4835
+          "startMs": 5034,
+          "endMs": 5284
         },
         {
           "text": "the",
-          "startMs": 4860,
-          "endMs": 4910
+          "startMs": 5309,
+          "endMs": 5359
         },
         {
           "text": "behavior.",
-          "startMs": 4960,
-          "endMs": 5610
+          "startMs": 5409,
+          "endMs": 6143
         }
       ]
     },
     "PILOT": {
       "text": "Now watch our controlled Verification Lab. Two refund attempts run concurrently with the same logical key. The vulnerable fixture commits two side effects. Verified fail. Reserve the key before asynchronous work, and only one effect is committed. Verified pass.",
       "audio": "audio/generated/PILOT.wav",
-      "durationMs": 17383,
+      "durationMs": 17012,
       "alignmentConfidence": 0.991903,
+      "voiceDirection": "energized proof sample",
+      "speed": 1.04,
+      "sentencePause": 0.24,
+      "clausePause": 0.09,
       "words": [
         {
           "text": "Now",
-          "startMs": 123,
-          "endMs": 373
+          "startMs": 119,
+          "endMs": 369
         },
         {
           "text": "watch",
-          "startMs": 423,
-          "endMs": 698
+          "startMs": 419,
+          "endMs": 669
         },
         {
           "text": "our",
-          "startMs": 723,
-          "endMs": 823
+          "startMs": 694,
+          "endMs": 794
         },
         {
           "text": "controlled",
-          "startMs": 873,
-          "endMs": 1373
+          "startMs": 844,
+          "endMs": 1344
         },
         {
           "text": "Verification",
-          "startMs": 1423,
-          "endMs": 2123
+          "startMs": 1394,
+          "endMs": 2069
         },
         {
           "text": "Lab.",
-          "startMs": 2173,
-          "endMs": 2798
+          "startMs": 2119,
+          "endMs": 2719
         },
         {
           "text": "Two",
-          "startMs": 2873,
-          "endMs": 3048
+          "startMs": 2794,
+          "endMs": 2969
         },
         {
           "text": "refund",
-          "startMs": 3098,
-          "endMs": 3473
+          "startMs": 3019,
+          "endMs": 3394
         },
         {
           "text": "attempts",
-          "startMs": 3523,
-          "endMs": 3973
+          "startMs": 3444,
+          "endMs": 3894
         },
         {
           "text": "run",
-          "startMs": 4023,
-          "endMs": 4198
+          "startMs": 3944,
+          "endMs": 4119
         },
         {
           "text": "concurrently",
-          "startMs": 4248,
-          "endMs": 4898
+          "startMs": 4169,
+          "endMs": 4819
         },
         {
           "text": "with",
-          "startMs": 4948,
-          "endMs": 5073
+          "startMs": 4869,
+          "endMs": 4994
         },
         {
           "text": "the",
-          "startMs": 5073,
-          "endMs": 5148
+          "startMs": 4994,
+          "endMs": 5069
         },
         {
           "text": "same",
-          "startMs": 5223,
-          "endMs": 5523
+          "startMs": 5144,
+          "endMs": 5419
         },
         {
           "text": "logical",
-          "startMs": 5573,
-          "endMs": 6073
+          "startMs": 5469,
+          "endMs": 5969
         },
         {
           "text": "key.",
-          "startMs": 6123,
-          "endMs": 6923
+          "startMs": 6019,
+          "endMs": 6769
         },
         {
           "text": "The",
-          "startMs": 6998,
-          "endMs": 7073
+          "startMs": 6819,
+          "endMs": 6894
         },
         {
           "text": "vulnerable",
-          "startMs": 7148,
-          "endMs": 7648
+          "startMs": 6944,
+          "endMs": 7419
         },
         {
           "text": "fixture",
-          "startMs": 7723,
-          "endMs": 8173
+          "startMs": 7494,
+          "endMs": 7944
         },
         {
           "text": "commits",
-          "startMs": 8248,
-          "endMs": 8623
+          "startMs": 8019,
+          "endMs": 8394
         },
         {
           "text": "two",
-          "startMs": 8723,
-          "endMs": 8923
+          "startMs": 8494,
+          "endMs": 8694
         },
         {
           "text": "side",
-          "startMs": 8998,
-          "endMs": 9273
+          "startMs": 8769,
+          "endMs": 9044
         },
         {
           "text": "effects.",
-          "startMs": 9298,
-          "endMs": 10148
+          "startMs": 9069,
+          "endMs": 9919
         },
         {
           "text": "Verified",
-          "startMs": 10248,
-          "endMs": 10798
+          "startMs": 10019,
+          "endMs": 10569
         },
         {
           "text": "fail.",
-          "startMs": 10848,
-          "endMs": 11448
+          "startMs": 10619,
+          "endMs": 11219
         },
         {
           "text": "Reserve",
-          "startMs": 11523,
-          "endMs": 11898
+          "startMs": 11294,
+          "endMs": 11669
         },
         {
           "text": "the",
-          "startMs": 11948,
-          "endMs": 11998
+          "startMs": 11719,
+          "endMs": 11769
         },
         {
           "text": "key",
-          "startMs": 12073,
-          "endMs": 12323
+          "startMs": 11844,
+          "endMs": 12069
         },
         {
           "text": "before",
-          "startMs": 12373,
-          "endMs": 12698
+          "startMs": 12119,
+          "endMs": 12419
         },
         {
           "text": "asynchronous",
-          "startMs": 12748,
-          "endMs": 13248
+          "startMs": 12469,
+          "endMs": 12969
         },
         {
           "text": "work,",
-          "startMs": 13298,
-          "endMs": 13748
+          "startMs": 13019,
+          "endMs": 13469
         },
         {
           "text": "and",
-          "startMs": 13798,
-          "endMs": 13898
+          "startMs": 13519,
+          "endMs": 13594
         },
         {
           "text": "only",
-          "startMs": 13948,
-          "endMs": 14248
+          "startMs": 13644,
+          "endMs": 13944
         },
         {
           "text": "one",
-          "startMs": 14323,
-          "endMs": 14448
+          "startMs": 14019,
+          "endMs": 14144
         },
         {
           "text": "effect",
-          "startMs": 14498,
-          "endMs": 14873
+          "startMs": 14194,
+          "endMs": 14569
         },
         {
           "text": "is",
-          "startMs": 14923,
-          "endMs": 15023
+          "startMs": 14619,
+          "endMs": 14719
         },
         {
           "text": "committed.",
-          "startMs": 15073,
-          "endMs": 15998
+          "startMs": 14769,
+          "endMs": 15694
         },
         {
           "text": "Verified",
-          "startMs": 16098,
-          "endMs": 16648
+          "startMs": 15794,
+          "endMs": 16344
         },
         {
           "text": "pass.",
-          "startMs": 16698,
-          "endMs": 17173
+          "startMs": 16394,
+          "endMs": 16832
         }
       ]
     }
