@@ -1,0 +1,48 @@
+name: Render FlowGuard V2
+
+on:
+  workflow_dispatch:
+    inputs:
+      render_target:
+        description: Render target
+        required: true
+        default: proof
+        type: choice
+        options: [proof, draft, final]
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      REMOTION_BROWSER_EXECUTABLE: /usr/bin/google-chrome
+    defaults:
+      run:
+        working-directory: remotion-project
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: remotion-project/package-lock.json
+      - name: Install locked dependencies
+        run: npm ci
+      - name: Validate source and timeline
+        run: npm test
+      - name: Render selected artifact
+        run: npm run render:${{ inputs.render_target }}
+      - name: Probe media
+        run: ffprobe -v error -show_entries stream=codec_name,width,height,r_frame_rate -show_entries format=duration -of json out/*.mp4 | tee out/ffprobe.json
+      - name: Upload render and probe
+        uses: actions/upload-artifact@v4
+        with:
+          name: flowguard-v2-${{ inputs.render_target }}
+          path: |
+            remotion-project/out/*.mp4
+            remotion-project/out/ffprobe.json
+          if-no-files-found: error
+          retention-days: 14
