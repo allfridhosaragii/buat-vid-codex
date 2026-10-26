@@ -29,6 +29,7 @@ This file distinguishes observed results from unfinished work. A runnable compos
 | AAC audio / loudness / clipping | Not applicable to the silent draft |
 | 1080p 210-second final MP4 | Not yet rendered; never infer completion from source or workflow YAML |
 | Fresh GitHub Actions execution | Workflow is committed source only until a user manually triggers it |
+| Pull request object | Not created: GitHub GraphQL returned `403 Forbidden`; pushed branch is ready at the compare URL recorded in `PROGRESS.md` |
 
 ## Five-audience evidence matrix
 

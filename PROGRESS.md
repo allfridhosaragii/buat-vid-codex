@@ -45,4 +45,4 @@ Updated: 2026-10-26 (Codex Cloud)
 - Generate legally usable natural English narration and timestamps from the produced audio.
 - Replace provisional caption timing with aligned word timing and validate five random words.
 - Render and inspect final narrated 1080p master; verify AAC, loudness, clipping, and spoken cuts.
-- Open a pull request after pushing the task branch; do not merge automatically.
+- Branch `codex/flowguard-v2` is pushed. GitHub PR creation via `gh` returned GraphQL `403 Forbidden` because API authorization is unavailable even though Git push works. Create the PR from `https://github.com/allfridhosaragii/buat-vid-codex/compare/main...codex/flowguard-v2`; do not merge automatically.
