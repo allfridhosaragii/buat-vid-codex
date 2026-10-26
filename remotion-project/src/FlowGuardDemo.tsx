@@ -4,6 +4,7 @@ import { SCENES } from './constants/manifest';
 import { THEME } from './constants/theme';
 import wordTimings from './data/word-timings.json';
 import {V3SceneDirector} from './v3/V3SceneDirector';
+import {PremiumMasterOverlay} from './v3/PremiumMasterOverlay';
 
 export const FlowGuardDemo: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ export const FlowGuardDemo: React.FC = () => {
         </Sequence>
       ))}
       <Audio src={staticFile('audio/generated/MASTER_SFX.wav')} volume={0.5} />
+      <PremiumMasterOverlay />
     </AbsoluteFill>
   );
 };

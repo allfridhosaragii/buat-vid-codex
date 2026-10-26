@@ -1,11 +1,13 @@
 import React from 'react';
 import {interpolate,useCurrentFrame} from 'remotion';
-import {C,CaptionTrack,EvidenceFooter,KineticWord,SceneFrame,ScopeRibbon,clamp,ease} from '../CinematicKit';
+import {C,CaptionTrack,EvidenceFooter,ImpactFlash,KineticWord,PulseRing,SceneFrame,ScopeRibbon,clamp,ease} from '../CinematicKit';
 
 export const S01Hook:React.FC=()=>{const f=useCurrentFrame();const split=ease(f,72,190);const resolve=ease(f,255,330);const pulse=ease(f,82,250);return <SceneFrame accent={C.failure} camera={interpolate(f,[0,359],[1.08,1],clamp)}>
   <ScopeRibbon tone={C.warning}>CONCEPTUAL ILLUSTRATION · CAUSE UNVERIFIED</ScopeRibbon>
   <KineticWord start={0} exit={86} left={120} top={130} size={100}>ONE ACTION.</KineticWord>
   <KineticWord start={28} exit={115} left={760} top={260} size={82} tone={C.cyan}>ONE PERSON.</KineticWord>
+  <PulseRing x={690} y={495} at={92} tone={C.cyan} size={210}/><PulseRing x={690} y={495} at={112} tone={C.failure} size={270}/>
+  {Array.from({length:18},(_,i)=>{const p=ease(f,108+i*.8,190+i*.8);const a=(i/18)*Math.PI*2;return <div key={i} style={{position:'absolute',left:840+Math.cos(a)*p*(170+i*5),top:492+Math.sin(a)*p*(90+i*2),width:4+i%4*2,height:22+i%3*8,opacity:(1-p)*.8,background:i%2?C.failure:C.warning,transform:`rotate(${a*57.3+f*2}deg)`,boxShadow:`0 0 18px ${i%2?C.failure:C.warning}`}}/>})}
   <div style={{position:'absolute',left:150,right:150,top:300,height:390,opacity:ease(f,58,95)*(1-ease(f,270,320)),transform:`perspective(1200px) rotateX(${interpolate(f,[60,180],[8,0],clamp)}deg)`}}>
     <svg viewBox="0 0 1620 390" width="100%" height="100%">
       <defs><filter id="hookGlow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
@@ -22,5 +24,6 @@ export const S01Hook:React.FC=()=>{const f=useCurrentFrame();const split=ease(f,
     <div style={{position:'absolute',right:0,bottom:28,opacity:ease(f,166,205),padding:'14px 20px',borderRadius:16,border:`2px solid ${C.warning}`,background:'#211b10',color:C.warning,fontFamily:'monospace',fontWeight:900}}>MONEY UNAVAILABLE</div>
   </div>
   <div style={{position:'absolute',inset:0,opacity:resolve,transform:`scale(${.9+resolve*.1})`,display:'grid',placeItems:'center',textAlign:'center'}}><div><div style={{fontFamily:'monospace',fontSize:20,letterSpacing:'.24em',color:C.cyan}}>ONE LOGICAL PATH</div><div style={{fontFamily:'Inter,Arial,sans-serif',fontWeight:900,fontSize:112,lineHeight:.86,letterSpacing:'-.065em',marginTop:22}}>WHEN ONE PATH<br/><span style={{color:C.failure}}>BECOMES TWO</span></div></div></div>
+  <ImpactFlash at={254} tone={C.failure}/>
   <CaptionTrack sceneId="S01"/><EvidenceFooter label="Human-impact hook · no real transaction shown" badge="ILLUSTRATION, NOT ROOT-CAUSE EVIDENCE" tone={C.warning}/>
 </SceneFrame>};
